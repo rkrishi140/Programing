@@ -1,0 +1,556 @@
+2019-01-04 17:31:30,682:INFO:Entered into insertionSort method
+2019-01-04 17:31:30,682:DEBUG:Entered into main try block!
+2019-01-04 17:31:30,682:DEBUG:Getting out of main try block!
+2019-01-04 17:31:30,682:INFO:Try else block executed!
+2019-01-04 17:31:30,682:DEBUG:Output Sorted List is: [0, 1, 2, 3, 3, 5, 7, 8]
+2019-01-04 17:31:35,369:INFO:Try else block executed!
+2019-01-04 17:31:35,369:DEBUG:Recursively is being Sorted: [1]
+2019-01-04 17:31:35,369:INFO:Try else block executed!
+2019-01-04 17:31:35,369:DEBUG:Recursively is being Sorted: [3]
+2019-01-04 17:31:35,369:INFO:Try else block executed!
+2019-01-04 17:31:35,369:DEBUG:Recursively is being Sorted: [1, 3]
+2019-01-04 17:31:35,369:INFO:Try else block executed!
+2019-01-04 17:31:35,369:DEBUG:Recursively is being Sorted: [5]
+2019-01-04 17:31:35,369:INFO:Try else block executed!
+2019-01-04 17:31:35,369:DEBUG:Recursively is being Sorted: [3]
+2019-01-04 17:31:35,369:INFO:Try else block executed!
+2019-01-04 17:31:35,369:DEBUG:Recursively is being Sorted: [3, 5]
+2019-01-04 17:31:35,369:INFO:Try else block executed!
+2019-01-04 17:31:35,369:DEBUG:Recursively is being Sorted: [1, 3, 3, 5]
+2019-01-04 17:31:35,369:INFO:Try else block executed!
+2019-01-04 17:31:35,369:DEBUG:Recursively is being Sorted: [2]
+2019-01-04 17:31:35,369:INFO:Try else block executed!
+2019-01-04 17:31:35,369:DEBUG:Recursively is being Sorted: [8]
+2019-01-04 17:31:35,369:INFO:Try else block executed!
+2019-01-04 17:31:35,369:DEBUG:Recursively is being Sorted: [2, 8]
+2019-01-04 17:31:35,369:INFO:Try else block executed!
+2019-01-04 17:31:35,369:DEBUG:Recursively is being Sorted: [7]
+2019-01-04 17:31:35,369:INFO:Try else block executed!
+2019-01-04 17:31:35,369:DEBUG:Recursively is being Sorted: [0]
+2019-01-04 17:31:35,369:INFO:Try else block executed!
+2019-01-04 17:31:35,369:DEBUG:Recursively is being Sorted: [0, 7]
+2019-01-04 17:31:35,369:INFO:Try else block executed!
+2019-01-04 17:31:35,369:DEBUG:Recursively is being Sorted: [0, 2, 7, 8]
+2019-01-04 17:31:35,369:INFO:Try else block executed!
+2019-01-04 17:31:35,369:DEBUG:Recursively is being Sorted: [0, 1, 2, 3, 3, 5, 7, 8]
+2019-01-04 17:31:39,386:DEBUG:Entered in to helping function!
+2019-01-04 17:31:39,386:DEBUG:Entered into main try block!
+2019-01-04 17:31:39,386:ERROR:'<=' not supported between instances of 'int' and 'str'
+Traceback (most recent call last):
+  File "C:/Users/rishikesh.rishi/Desktop/Programs/SortingMethods/Sorting/QuickSort.py", line 83, in quickSort
+    quickSort1(input_list, 0, len(input_list))
+  File "C:/Users/rishikesh.rishi/Desktop/Programs/SortingMethods/Sorting/QuickSort.py", line 65, in quickSort1
+    index = toFindPivotIndex(inputList, leftIndex, rightIndex)
+  File "C:/Users/rishikesh.rishi/Desktop/Programs/SortingMethods/Sorting/QuickSort.py", line 45, in toFindPivotIndex
+    if inputList[j] <= pivotElement:
+TypeError: '<=' not supported between instances of 'int' and 'str'
+2019-01-04 17:31:39,386:ERROR:Error Occurred and type of error is None
+2019-01-04 17:31:43,807:INFO:Entered into selectionSort method!
+2019-01-04 17:31:43,807:DEBUG:Entered into main try block!
+2019-01-04 17:31:43,807:ERROR:'>=' not supported between instances of 'int' and 'str'
+Traceback (most recent call last):
+  File "C:/Users/rishikesh.rishi/Desktop/Programs/SortingMethods/Sorting/SelectionSort.py", line 59, in selectionSort
+    index = findMinIndex(inputList, i, len(inputList))
+  File "C:/Users/rishikesh.rishi/Desktop/Programs/SortingMethods/Sorting/SelectionSort.py", line 39, in findMinIndex
+    if inputList[minIndex] >= inputList[i]:
+TypeError: '>=' not supported between instances of 'int' and 'str'
+2019-01-04 17:31:43,807:ERROR:Error Occurred and type of error is None
+2019-01-04 17:33:23,242:INFO:Object is being created!
+2019-01-04 17:33:23,242:INFO:MergeSort is called!
+2019-01-04 17:33:23,242:INFO:Try else block executed!
+2019-01-04 17:33:23,242:DEBUG:Recursively is being Sorted: [1]
+2019-01-04 17:33:23,242:INFO:Try else block executed!
+2019-01-04 17:33:23,242:DEBUG:Recursively is being Sorted: [4]
+2019-01-04 17:33:23,242:INFO:Try else block executed!
+2019-01-04 17:33:23,242:DEBUG:Recursively is being Sorted: [1, 4]
+2019-01-04 17:33:23,242:INFO:Try else block executed!
+2019-01-04 17:33:23,242:DEBUG:Recursively is being Sorted: [6]
+2019-01-04 17:33:23,242:INFO:Try else block executed!
+2019-01-04 17:33:23,242:DEBUG:Recursively is being Sorted: [4]
+2019-01-04 17:33:23,242:INFO:Try else block executed!
+2019-01-04 17:33:23,242:DEBUG:Recursively is being Sorted: [0]
+2019-01-04 17:33:23,242:INFO:Try else block executed!
+2019-01-04 17:33:23,242:DEBUG:Recursively is being Sorted: [0, 4]
+2019-01-04 17:33:23,242:INFO:Try else block executed!
+2019-01-04 17:33:23,242:DEBUG:Recursively is being Sorted: [0, 4, 6]
+2019-01-04 17:33:23,242:INFO:Try else block executed!
+2019-01-04 17:33:23,242:DEBUG:Recursively is being Sorted: [0, 1, 4, 4, 6]
+2019-01-04 17:34:08,450:INFO:Object is being created!
+2019-01-04 17:34:08,450:INFO:Object is being created!
+2019-01-04 17:34:08,450:INFO:Object is being created!
+2019-01-04 17:34:08,450:INFO:Object is being created!
+2019-01-04 17:34:08,450:INFO:Object is being created!
+2019-01-04 17:34:08,450:INFO:Object is being created!
+2019-01-04 17:34:08,450:INFO:Object is being created!
+2019-01-04 17:34:08,450:INFO:Object is being created!
+2019-01-04 17:34:08,450:INFO:QuickSort in called!
+2019-01-04 17:34:08,454:DEBUG:Entered in to helping function!
+2019-01-04 17:34:08,454:DEBUG:Entered into main try block!
+2019-01-04 17:34:08,454:INFO:Try else block executed!
+2019-01-04 17:34:08,454:DEBUG:Output Sorted List is: [-5, -4, -3, -2, -1]
+2019-01-04 17:34:08,454:INFO:MergeSort is called!
+2019-01-04 17:34:08,454:INFO:Try else block executed!
+2019-01-04 17:34:08,454:DEBUG:Recursively is being Sorted: [-5]
+2019-01-04 17:34:08,454:INFO:Try else block executed!
+2019-01-04 17:34:08,454:DEBUG:Recursively is being Sorted: [-4]
+2019-01-04 17:34:08,454:INFO:Try else block executed!
+2019-01-04 17:34:08,454:DEBUG:Recursively is being Sorted: [-5, -4]
+2019-01-04 17:34:08,454:INFO:Try else block executed!
+2019-01-04 17:34:08,454:DEBUG:Recursively is being Sorted: [-3]
+2019-01-04 17:34:08,454:INFO:Try else block executed!
+2019-01-04 17:34:08,454:DEBUG:Recursively is being Sorted: [-2]
+2019-01-04 17:34:08,454:INFO:Try else block executed!
+2019-01-04 17:34:08,454:DEBUG:Recursively is being Sorted: [-1]
+2019-01-04 17:34:08,454:INFO:Try else block executed!
+2019-01-04 17:34:08,454:DEBUG:Recursively is being Sorted: [-2, -1]
+2019-01-04 17:34:08,454:INFO:Try else block executed!
+2019-01-04 17:34:08,454:DEBUG:Recursively is being Sorted: [-3, -2, -1]
+2019-01-04 17:34:08,454:INFO:Try else block executed!
+2019-01-04 17:34:08,454:DEBUG:Recursively is being Sorted: [-5, -4, -3, -2, -1]
+2019-01-04 17:34:08,454:INFO:SelectionSort in called!
+2019-01-04 17:34:08,454:INFO:Entered into selectionSort method!
+2019-01-04 17:34:08,454:DEBUG:Entered into main try block!
+2019-01-04 17:34:08,454:DEBUG:List is sorted!
+2019-01-04 17:34:08,454:INFO:Try else block executed!
+2019-01-04 17:34:08,454:DEBUG:Output Sorted List is: [-5, -4, -3, -2, -1]
+2019-01-04 17:34:08,454:INFO:InsertionSort in called!
+2019-01-04 17:34:08,454:INFO:Entered into insertionSort method
+2019-01-04 17:34:08,454:DEBUG:Entered into main try block!
+2019-01-04 17:34:08,454:DEBUG:Getting out of main try block!
+2019-01-04 17:34:08,454:INFO:Try else block executed!
+2019-01-04 17:34:08,454:DEBUG:Output Sorted List is: [-5, -4, -3, -2, -1]
+2019-01-04 17:34:08,458:INFO:Object is being created!
+2019-01-04 17:34:08,458:INFO:Object is being created!
+2019-01-04 17:34:08,458:INFO:Object is being created!
+2019-01-04 17:34:08,458:INFO:Object is being created!
+2019-01-04 17:34:08,458:INFO:Object is being created!
+2019-01-04 17:34:08,458:INFO:Object is being created!
+2019-01-04 17:34:08,458:INFO:Object is being created!
+2019-01-04 17:34:08,458:INFO:Object is being created!
+2019-01-04 17:34:08,458:INFO:QuickSort in called!
+2019-01-04 17:34:08,458:DEBUG:Entered in to helping function!
+2019-01-04 17:34:08,458:DEBUG:Entered into main try block!
+2019-01-04 17:34:08,458:INFO:Try else block executed!
+2019-01-04 17:34:08,458:DEBUG:Output Sorted List is: [0, 0, 3, 4, 6, 7, 8, 9]
+2019-01-04 17:34:08,458:INFO:MergeSort is called!
+2019-01-04 17:34:08,458:INFO:Try else block executed!
+2019-01-04 17:34:08,458:DEBUG:Recursively is being Sorted: [0]
+2019-01-04 17:34:08,458:INFO:Try else block executed!
+2019-01-04 17:34:08,458:DEBUG:Recursively is being Sorted: [0]
+2019-01-04 17:34:08,458:INFO:Try else block executed!
+2019-01-04 17:34:08,458:DEBUG:Recursively is being Sorted: [0, 0]
+2019-01-04 17:34:08,458:INFO:Try else block executed!
+2019-01-04 17:34:08,458:DEBUG:Recursively is being Sorted: [3]
+2019-01-04 17:34:08,458:INFO:Try else block executed!
+2019-01-04 17:34:08,458:DEBUG:Recursively is being Sorted: [4]
+2019-01-04 17:34:08,458:INFO:Try else block executed!
+2019-01-04 17:34:08,458:DEBUG:Recursively is being Sorted: [3, 4]
+2019-01-04 17:34:08,458:INFO:Try else block executed!
+2019-01-04 17:34:08,458:DEBUG:Recursively is being Sorted: [0, 0, 3, 4]
+2019-01-04 17:34:08,458:INFO:Try else block executed!
+2019-01-04 17:34:08,458:DEBUG:Recursively is being Sorted: [6]
+2019-01-04 17:34:08,458:INFO:Try else block executed!
+2019-01-04 17:34:08,458:DEBUG:Recursively is being Sorted: [7]
+2019-01-04 17:34:08,458:INFO:Try else block executed!
+2019-01-04 17:34:08,458:DEBUG:Recursively is being Sorted: [6, 7]
+2019-01-04 17:34:08,458:INFO:Try else block executed!
+2019-01-04 17:34:08,458:DEBUG:Recursively is being Sorted: [8]
+2019-01-04 17:34:08,458:INFO:Try else block executed!
+2019-01-04 17:34:08,458:DEBUG:Recursively is being Sorted: [9]
+2019-01-04 17:34:08,458:INFO:Try else block executed!
+2019-01-04 17:34:08,458:DEBUG:Recursively is being Sorted: [8, 9]
+2019-01-04 17:34:08,458:INFO:Try else block executed!
+2019-01-04 17:34:08,458:DEBUG:Recursively is being Sorted: [6, 7, 8, 9]
+2019-01-04 17:34:08,458:INFO:Try else block executed!
+2019-01-04 17:34:08,458:DEBUG:Recursively is being Sorted: [0, 0, 3, 4, 6, 7, 8, 9]
+2019-01-04 17:34:08,458:INFO:SelectionSort in called!
+2019-01-04 17:34:08,458:INFO:Entered into selectionSort method!
+2019-01-04 17:34:08,458:DEBUG:Entered into main try block!
+2019-01-04 17:34:08,458:DEBUG:List is sorted!
+2019-01-04 17:34:08,458:INFO:Try else block executed!
+2019-01-04 17:34:08,458:DEBUG:Output Sorted List is: [0, 0, 3, 4, 6, 7, 8, 9]
+2019-01-04 17:34:08,458:INFO:InsertionSort in called!
+2019-01-04 17:34:08,458:INFO:Entered into insertionSort method
+2019-01-04 17:34:08,458:DEBUG:Entered into main try block!
+2019-01-04 17:34:08,458:DEBUG:Getting out of main try block!
+2019-01-04 17:34:08,458:INFO:Try else block executed!
+2019-01-04 17:34:08,458:DEBUG:Output Sorted List is: [0, 0, 3, 4, 6, 7, 8, 9]
+2019-01-04 17:34:08,458:INFO:Object is being created!
+2019-01-04 17:34:08,458:INFO:Object is being created!
+2019-01-04 17:34:08,458:INFO:Object is being created!
+2019-01-04 17:34:08,458:INFO:Object is being created!
+2019-01-04 17:34:08,458:INFO:Object is being created!
+2019-01-04 17:34:08,458:INFO:Object is being created!
+2019-01-04 17:34:08,458:INFO:Object is being created!
+2019-01-04 17:34:08,458:INFO:Object is being created!
+2019-01-04 17:34:08,458:INFO:QuickSort in called!
+2019-01-04 17:34:08,458:DEBUG:Entered in to helping function!
+2019-01-04 17:34:08,458:DEBUG:Entered into main try block!
+2019-01-04 17:34:08,458:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Output Sorted List is: [1, 2, 3, 4, 8, 8, 8, 9]
+2019-01-04 17:34:08,474:INFO:MergeSort is called!
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [1]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [2]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [1, 2]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [3]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [4]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [3, 4]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [1, 2, 3, 4]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [8]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [8]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [8, 8]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [8]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [9]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [8, 9]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [8, 8, 8, 9]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [1, 2, 3, 4, 8, 8, 8, 9]
+2019-01-04 17:34:08,474:INFO:SelectionSort in called!
+2019-01-04 17:34:08,474:INFO:Entered into selectionSort method!
+2019-01-04 17:34:08,474:DEBUG:Entered into main try block!
+2019-01-04 17:34:08,474:DEBUG:List is sorted!
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Output Sorted List is: [1, 2, 3, 4, 8, 8, 8, 9]
+2019-01-04 17:34:08,474:INFO:InsertionSort in called!
+2019-01-04 17:34:08,474:INFO:Entered into insertionSort method
+2019-01-04 17:34:08,474:DEBUG:Entered into main try block!
+2019-01-04 17:34:08,474:DEBUG:Getting out of main try block!
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Output Sorted List is: [1, 2, 3, 4, 8, 8, 8, 9]
+2019-01-04 17:34:08,474:INFO:Object is being created!
+2019-01-04 17:34:08,474:INFO:Object is being created!
+2019-01-04 17:34:08,474:INFO:Object is being created!
+2019-01-04 17:34:08,474:INFO:Object is being created!
+2019-01-04 17:34:08,474:INFO:Object is being created!
+2019-01-04 17:34:08,474:INFO:Object is being created!
+2019-01-04 17:34:08,474:INFO:Object is being created!
+2019-01-04 17:34:08,474:INFO:Object is being created!
+2019-01-04 17:34:08,474:INFO:QuickSort in called!
+2019-01-04 17:34:08,474:DEBUG:Entered in to helping function!
+2019-01-04 17:34:08,474:DEBUG:Entered into main try block!
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Output Sorted List is: [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-04 17:34:08,474:INFO:MergeSort is called!
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [1]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [2]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [1, 2]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [3]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [4]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [3, 4]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [1, 2, 3, 4]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [5]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [6]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [5, 6]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [7]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [8]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [7, 8]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [5, 6, 7, 8]
+2019-01-04 17:34:08,474:INFO:Try else block executed!
+2019-01-04 17:34:08,474:DEBUG:Recursively is being Sorted: [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-04 17:34:08,474:INFO:SelectionSort in called!
+2019-01-04 17:34:08,489:INFO:Entered into selectionSort method!
+2019-01-04 17:34:08,489:DEBUG:Entered into main try block!
+2019-01-04 17:34:08,489:DEBUG:List is sorted!
+2019-01-04 17:34:08,489:INFO:Try else block executed!
+2019-01-04 17:34:08,489:DEBUG:Output Sorted List is: [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-04 17:34:08,489:INFO:InsertionSort in called!
+2019-01-04 17:34:08,489:INFO:Entered into insertionSort method
+2019-01-04 17:34:08,489:DEBUG:Entered into main try block!
+2019-01-04 17:34:08,489:DEBUG:Getting out of main try block!
+2019-01-04 17:34:08,489:INFO:Try else block executed!
+2019-01-04 17:34:08,489:DEBUG:Output Sorted List is: [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-04 17:34:08,489:INFO:Object is being created!
+2019-01-04 17:34:08,489:INFO:Object is being created!
+2019-01-04 17:34:08,489:INFO:Object is being created!
+2019-01-04 17:34:08,489:INFO:Object is being created!
+2019-01-04 17:34:08,489:INFO:Object is being created!
+2019-01-04 17:34:08,489:INFO:Object is being created!
+2019-01-04 17:34:08,489:INFO:Object is being created!
+2019-01-04 17:34:08,489:INFO:Object is being created!
+2019-01-04 17:34:08,489:INFO:QuickSort in called!
+2019-01-04 17:34:08,489:DEBUG:Entered in to helping function!
+2019-01-04 17:34:08,489:DEBUG:Entered into main try block!
+2019-01-04 17:34:08,489:INFO:Try else block executed!
+2019-01-04 17:34:08,489:DEBUG:Output Sorted List is: [1]
+2019-01-04 17:34:08,489:INFO:MergeSort is called!
+2019-01-04 17:34:08,489:INFO:Try else block executed!
+2019-01-04 17:34:08,489:DEBUG:Recursively is being Sorted: [1]
+2019-01-04 17:34:08,489:INFO:SelectionSort in called!
+2019-01-04 17:34:08,489:INFO:Entered into selectionSort method!
+2019-01-04 17:34:08,489:DEBUG:Entered into main try block!
+2019-01-04 17:34:08,489:DEBUG:List is sorted!
+2019-01-04 17:34:08,489:INFO:Try else block executed!
+2019-01-04 17:34:08,489:DEBUG:Output Sorted List is: [1]
+2019-01-04 17:34:08,489:INFO:InsertionSort in called!
+2019-01-04 17:34:08,489:INFO:Entered into insertionSort method
+2019-01-04 17:34:08,489:DEBUG:Entered into main try block!
+2019-01-04 17:34:08,489:DEBUG:Getting out of main try block!
+2019-01-04 17:34:08,489:INFO:Try else block executed!
+2019-01-04 17:34:08,489:DEBUG:Output Sorted List is: [1]
+2019-01-04 17:34:08,489:INFO:Object is being created!
+2019-01-04 17:34:08,489:INFO:Object is being created!
+2019-01-04 17:34:08,489:INFO:Object is being created!
+2019-01-04 17:34:08,489:INFO:Object is being created!
+2019-01-04 17:34:08,489:INFO:Object is being created!
+2019-01-04 17:34:08,489:INFO:Object is being created!
+2019-01-04 17:34:08,489:INFO:Object is being created!
+2019-01-04 17:34:08,489:INFO:Object is being created!
+2019-01-04 17:34:08,489:INFO:QuickSort in called!
+2019-01-04 17:34:08,489:DEBUG:Entered in to helping function!
+2019-01-04 17:34:08,489:DEBUG:Entered into main try block!
+2019-01-04 17:34:08,489:INFO:Try else block executed!
+2019-01-04 17:34:08,489:DEBUG:Output Sorted List is: [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-04 17:34:08,489:INFO:MergeSort is called!
+2019-01-04 17:34:08,489:INFO:Try else block executed!
+2019-01-04 17:34:08,489:DEBUG:Recursively is being Sorted: [1]
+2019-01-04 17:34:08,489:INFO:Try else block executed!
+2019-01-04 17:34:08,489:DEBUG:Recursively is being Sorted: [2]
+2019-01-04 17:34:08,489:INFO:Try else block executed!
+2019-01-04 17:34:08,489:DEBUG:Recursively is being Sorted: [1, 2]
+2019-01-04 17:34:08,489:INFO:Try else block executed!
+2019-01-04 17:34:08,489:DEBUG:Recursively is being Sorted: [3]
+2019-01-04 17:34:08,489:INFO:Try else block executed!
+2019-01-04 17:34:08,489:DEBUG:Recursively is being Sorted: [4]
+2019-01-04 17:34:08,489:INFO:Try else block executed!
+2019-01-04 17:34:08,489:DEBUG:Recursively is being Sorted: [3, 4]
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Recursively is being Sorted: [1, 2, 3, 4]
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Recursively is being Sorted: [5]
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Recursively is being Sorted: [6]
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Recursively is being Sorted: [5, 6]
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Recursively is being Sorted: [7]
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Recursively is being Sorted: [8]
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Recursively is being Sorted: [7, 8]
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Recursively is being Sorted: [5, 6, 7, 8]
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Recursively is being Sorted: [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-04 17:34:08,505:INFO:SelectionSort in called!
+2019-01-04 17:34:08,505:INFO:Entered into selectionSort method!
+2019-01-04 17:34:08,505:DEBUG:Entered into main try block!
+2019-01-04 17:34:08,505:DEBUG:List is sorted!
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Output Sorted List is: [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-04 17:34:08,505:INFO:InsertionSort in called!
+2019-01-04 17:34:08,505:INFO:Entered into insertionSort method
+2019-01-04 17:34:08,505:DEBUG:Entered into main try block!
+2019-01-04 17:34:08,505:DEBUG:Getting out of main try block!
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Output Sorted List is: [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-04 17:34:08,505:INFO:Object is being created!
+2019-01-04 17:34:08,505:INFO:Object is being created!
+2019-01-04 17:34:08,505:INFO:Object is being created!
+2019-01-04 17:34:08,505:INFO:Object is being created!
+2019-01-04 17:34:08,505:INFO:Object is being created!
+2019-01-04 17:34:08,505:INFO:Object is being created!
+2019-01-04 17:34:08,505:INFO:Object is being created!
+2019-01-04 17:34:08,505:INFO:Object is being created!
+2019-01-04 17:34:08,505:INFO:SelectionSort in called!
+2019-01-04 17:34:08,505:INFO:Entered into selectionSort method!
+2019-01-04 17:34:08,505:DEBUG:Entered into main try block!
+2019-01-04 17:34:08,505:DEBUG:List is sorted!
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Output Sorted List is: [1, 2, 3, 4, 6, 7, 8, 9]
+2019-01-04 17:34:08,505:INFO:InsertionSort in called!
+2019-01-04 17:34:08,505:INFO:Entered into insertionSort method
+2019-01-04 17:34:08,505:DEBUG:Entered into main try block!
+2019-01-04 17:34:08,505:DEBUG:Getting out of main try block!
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Output Sorted List is: [1, 2, 3, 4, 6, 7, 8, 9]
+2019-01-04 17:34:08,505:INFO:QuickSort in called!
+2019-01-04 17:34:08,505:DEBUG:Entered in to helping function!
+2019-01-04 17:34:08,505:DEBUG:Entered into main try block!
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Output Sorted List is: [1, 2, 3, 4, 6, 7, 8, 9]
+2019-01-04 17:34:08,505:INFO:MergeSort is called!
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Recursively is being Sorted: [1]
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Recursively is being Sorted: [2]
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Recursively is being Sorted: [1, 2]
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Recursively is being Sorted: [3]
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Recursively is being Sorted: [4]
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Recursively is being Sorted: [3, 4]
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Recursively is being Sorted: [1, 2, 3, 4]
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Recursively is being Sorted: [6]
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Recursively is being Sorted: [7]
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Recursively is being Sorted: [6, 7]
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Recursively is being Sorted: [8]
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Recursively is being Sorted: [9]
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Recursively is being Sorted: [8, 9]
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Recursively is being Sorted: [6, 7, 8, 9]
+2019-01-04 17:34:08,505:INFO:Try else block executed!
+2019-01-04 17:34:08,505:DEBUG:Recursively is being Sorted: [1, 2, 3, 4, 6, 7, 8, 9]
+2019-01-04 17:34:08,521:INFO:Object is being created!
+2019-01-04 17:34:08,521:INFO:Object is being created!
+2019-01-04 17:34:08,521:INFO:Object is being created!
+2019-01-04 17:34:08,521:INFO:Object is being created!
+2019-01-04 17:34:08,521:INFO:Object is being created!
+2019-01-04 17:34:08,521:INFO:Object is being created!
+2019-01-04 17:34:08,521:INFO:Object is being created!
+2019-01-04 17:34:08,521:INFO:Object is being created!
+2019-01-04 17:34:08,521:INFO:QuickSort in called!
+2019-01-04 17:34:08,521:DEBUG:Entered in to helping function!
+2019-01-04 17:34:08,521:DEBUG:Entered into main try block!
+2019-01-04 17:34:08,521:INFO:Try else block executed!
+2019-01-04 17:34:08,521:DEBUG:Output Sorted List is: []
+2019-01-04 17:34:08,521:INFO:MergeSort is called!
+2019-01-04 17:34:08,521:INFO:Try else block executed!
+2019-01-04 17:34:08,521:DEBUG:Recursively is being Sorted: []
+2019-01-04 17:34:08,521:INFO:SelectionSort in called!
+2019-01-04 17:34:08,521:INFO:Entered into selectionSort method!
+2019-01-04 17:34:08,521:DEBUG:Entered into main try block!
+2019-01-04 17:34:08,521:DEBUG:List is sorted!
+2019-01-04 17:34:08,521:INFO:Try else block executed!
+2019-01-04 17:34:08,521:DEBUG:Output Sorted List is: []
+2019-01-04 17:34:08,521:INFO:InsertionSort in called!
+2019-01-04 17:34:08,521:INFO:Entered into insertionSort method
+2019-01-04 17:34:08,521:DEBUG:Entered into main try block!
+2019-01-04 17:34:08,521:DEBUG:Getting out of main try block!
+2019-01-04 17:34:08,521:INFO:Try else block executed!
+2019-01-04 17:34:08,521:DEBUG:Output Sorted List is: []
+2019-01-04 17:40:23,948:INFO:Object is being created!
+2019-01-04 17:40:23,948:INFO:MergeSort is called!
+2019-01-04 17:40:23,948:INFO:Try else block executed!
+2019-01-04 17:40:23,948:DEBUG:Recursively is being Sorted: [1]
+2019-01-04 17:40:23,948:INFO:Try else block executed!
+2019-01-04 17:40:23,948:DEBUG:Recursively is being Sorted: [4]
+2019-01-04 17:40:23,948:INFO:Try else block executed!
+2019-01-04 17:40:23,948:DEBUG:Recursively is being Sorted: [1, 4]
+2019-01-04 17:40:23,948:INFO:Try else block executed!
+2019-01-04 17:40:23,948:DEBUG:Recursively is being Sorted: [6]
+2019-01-04 17:40:23,948:INFO:Try else block executed!
+2019-01-04 17:40:23,948:DEBUG:Recursively is being Sorted: [4]
+2019-01-04 17:40:23,948:INFO:Try else block executed!
+2019-01-04 17:40:23,948:DEBUG:Recursively is being Sorted: [0]
+2019-01-04 17:40:23,948:INFO:Try else block executed!
+2019-01-04 17:40:23,948:DEBUG:Recursively is being Sorted: [0, 4]
+2019-01-04 17:40:23,948:INFO:Try else block executed!
+2019-01-04 17:40:23,948:DEBUG:Recursively is being Sorted: [0, 4, 6]
+2019-01-04 17:40:23,948:INFO:Try else block executed!
+2019-01-04 17:40:23,948:DEBUG:Recursively is being Sorted: [0, 1, 4, 4, 6]
+2019-01-04 17:49:56,563:INFO:Object is being created!
+2019-01-04 17:49:56,567:INFO:MergeSort is called!
+2019-01-04 17:49:56,567:INFO:Try else block executed!
+2019-01-04 17:49:56,567:DEBUG:Recursively is being Sorted: [1]
+2019-01-04 17:49:56,567:INFO:Try else block executed!
+2019-01-04 17:49:56,567:DEBUG:Recursively is being Sorted: [4]
+2019-01-04 17:49:56,567:INFO:Try else block executed!
+2019-01-04 17:49:56,567:DEBUG:Recursively is being Sorted: [1, 4]
+2019-01-04 17:49:56,567:INFO:Try else block executed!
+2019-01-04 17:49:56,567:DEBUG:Recursively is being Sorted: [6]
+2019-01-04 17:49:56,567:INFO:Try else block executed!
+2019-01-04 17:49:56,567:DEBUG:Recursively is being Sorted: [4]
+2019-01-04 17:49:56,567:INFO:Try else block executed!
+2019-01-04 17:49:56,567:DEBUG:Recursively is being Sorted: [0]
+2019-01-04 17:49:56,567:INFO:Try else block executed!
+2019-01-04 17:49:56,567:DEBUG:Recursively is being Sorted: [0, 4]
+2019-01-04 17:49:56,567:INFO:Try else block executed!
+2019-01-04 17:49:56,567:DEBUG:Recursively is being Sorted: [0, 4, 6]
+2019-01-04 17:49:56,567:INFO:Try else block executed!
+2019-01-04 17:49:56,567:DEBUG:Recursively is being Sorted: [0, 1, 4, 4, 6]
+2019-01-07 16:45:31,747:DEBUG:Entered in to helping function!
+2019-01-07 16:45:31,762:DEBUG:Entered into main try block!
+2019-01-07 16:45:31,762:ERROR:'<=' not supported between instances of 'int' and 'str'
+Traceback (most recent call last):
+  File "C:/Users/rishikesh.rishi/Desktop/Programs/Programing/Sorting_Module/quicksort.py", line 83, in quickSort
+    quickSort1(input_list, 0, len(input_list))
+  File "C:/Users/rishikesh.rishi/Desktop/Programs/Programing/Sorting_Module/quicksort.py", line 65, in quickSort1
+    index = toFindPivotIndex(inputList, leftIndex, rightIndex)
+  File "C:/Users/rishikesh.rishi/Desktop/Programs/Programing/Sorting_Module/quicksort.py", line 45, in toFindPivotIndex
+    if inputList[j] <= pivotElement:
+TypeError: '<=' not supported between instances of 'int' and 'str'
+2019-01-07 16:45:31,762:ERROR:Error Occurred and type of error is None
+2019-01-07 16:46:04,400:DEBUG:Entered in to helping function!
+2019-01-07 16:46:04,400:DEBUG:Entered into main try block!
+2019-01-07 16:46:04,400:INFO:Try else block executed!
+2019-01-07 16:46:04,400:DEBUG:Output Sorted List is: [0, 1, 2, 3, 3, 5, 7, 8]
+2019-01-07 16:46:16,090:INFO:Entered into selectionSort method!
+2019-01-07 16:46:16,090:DEBUG:Entered into main try block!
+2019-01-07 16:46:16,090:ERROR:'>=' not supported between instances of 'int' and 'str'
+Traceback (most recent call last):
+  File "C:/Users/rishikesh.rishi/Desktop/Programs/Programing/Sorting_Module/selectionsort.py", line 59, in selectionSort
+    index = findMinIndex(inputList, i, len(inputList))
+  File "C:/Users/rishikesh.rishi/Desktop/Programs/Programing/Sorting_Module/selectionsort.py", line 39, in findMinIndex
+    if inputList[minIndex] >= inputList[i]:
+TypeError: '>=' not supported between instances of 'int' and 'str'
+2019-01-07 16:46:16,090:ERROR:Error Occurred and type of error is None
+2019-01-07 16:46:35,106:DEBUG:Entered in to helping function!
+2019-01-07 16:46:35,106:DEBUG:Entered into main try block!
+2019-01-07 16:46:35,106:INFO:Try else block executed!
+2019-01-07 16:46:35,106:DEBUG:Output Sorted List is: [0, 1, 2, 3, 3, 5, 7, 8]
+2019-01-07 16:46:39,137:DEBUG:Entered in to helping function!
+2019-01-07 16:46:39,137:DEBUG:Entered into main try block!
+2019-01-07 16:46:39,137:INFO:Try else block executed!
+2019-01-07 16:46:39,137:DEBUG:Output Sorted List is: [0, 1, 2, 3, 3, 5, 7, 8]
+2019-01-07 16:46:51,463:INFO:Entered into selectionSort method!
+2019-01-07 16:46:51,463:DEBUG:Entered into main try block!
+2019-01-07 16:46:51,463:DEBUG:List is sorted!
+2019-01-07 16:46:51,463:INFO:Try else block executed!
+2019-01-07 16:46:51,463:DEBUG:Output Sorted List is: [0, 1, 2, 3, 3, 5, 7, 8]
+2019-01-07 16:54:01,652:INFO:Object is being created!
+2019-01-07 16:54:01,652:INFO:MergeSort is called!
+2019-01-07 16:54:01,652:INFO:Try else block executed!
+2019-01-07 16:54:01,652:DEBUG:Recursively is being Sorted: [1]
+2019-01-07 16:54:01,652:INFO:Try else block executed!
+2019-01-07 16:54:01,652:DEBUG:Recursively is being Sorted: [4]
+2019-01-07 16:54:01,652:INFO:Try else block executed!
+2019-01-07 16:54:01,652:DEBUG:Recursively is being Sorted: [1, 4]
+2019-01-07 16:54:01,652:INFO:Try else block executed!
+2019-01-07 16:54:01,652:DEBUG:Recursively is being Sorted: [6]
+2019-01-07 16:54:01,652:INFO:Try else block executed!
+2019-01-07 16:54:01,652:DEBUG:Recursively is being Sorted: [4]
+2019-01-07 16:54:01,652:INFO:Try else block executed!
+2019-01-07 16:54:01,652:DEBUG:Recursively is being Sorted: [0]
+2019-01-07 16:54:01,652:INFO:Try else block executed!
+2019-01-07 16:54:01,652:DEBUG:Recursively is being Sorted: [0, 4]
+2019-01-07 16:54:01,652:INFO:Try else block executed!
+2019-01-07 16:54:01,652:DEBUG:Recursively is being Sorted: [0, 4, 6]
+2019-01-07 16:54:01,652:INFO:Try else block executed!
+2019-01-07 16:54:01,652:DEBUG:Recursively is being Sorted: [0, 1, 4, 4, 6]

@@ -1,0 +1,28 @@
+2019-01-07 16:54:43,743:INFO:Object is being created!
+2019-01-07 16:54:43,743:INFO:Object is being created!
+2019-01-07 16:54:43,743:INFO:Object is being created!
+2019-01-07 16:54:43,743:INFO:Object is being created!
+2019-01-07 16:54:43,743:INFO:Object is being created!
+2019-01-07 16:54:43,743:INFO:Object is being created!
+2019-01-07 16:54:43,743:INFO:Object is being created!
+2019-01-07 16:54:43,743:INFO:Object is being created!
+2019-01-07 16:54:43,743:INFO:QuickSort in called!
+2019-01-07 16:54:43,743:DEBUG:Entered in to helping function!
+2019-01-07 16:54:43,743:DEBUG:Entered into main try block!
+2019-01-07 16:54:43,743:INFO:Try else block executed!
+2019-01-07 16:54:43,743:DEBUG:Output Sorted List is: [1]
+2019-01-07 16:54:43,743:INFO:MergeSort is called!
+2019-01-07 16:54:43,743:INFO:Try else block executed!
+2019-01-07 16:54:43,743:DEBUG:Recursively is being Sorted: [1]
+2019-01-07 16:54:43,743:INFO:SelectionSort in called!
+2019-01-07 16:54:43,743:INFO:Entered into selectionSort method!
+2019-01-07 16:54:43,743:DEBUG:Entered into main try block!
+2019-01-07 16:54:43,743:DEBUG:List is sorted!
+2019-01-07 16:54:43,743:INFO:Try else block executed!
+2019-01-07 16:54:43,743:DEBUG:Output Sorted List is: [1]
+2019-01-07 16:54:43,743:INFO:InsertionSort in called!
+2019-01-07 16:54:43,743:INFO:Entered into insertionSort method
+2019-01-07 16:54:43,743:DEBUG:Entered into main try block!
+2019-01-07 16:54:43,743:DEBUG:Getting out of main try block!
+2019-01-07 16:54:43,743:INFO:Try else block executed!
+2019-01-07 16:54:43,743:DEBUG:Output Sorted List is: [1]
