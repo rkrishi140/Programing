@@ -12,8 +12,9 @@ Todo:
 
 """
 
-from Programs.Programing.Sorting_Module.sorting import Sort
+from Programing.Sorting_Module.sorting import Sort
 import unittest
+
 
 class TestSort(unittest.TestCase):
     """
@@ -32,43 +33,49 @@ class TestSort(unittest.TestCase):
 
     def test_unsorted_list(self):
         """ When input list is unsorted """
-        self.assertEqual(self.unsorted_list.selectionSort, [1, 2, 3, 4, 6, 7, 8, 9])
-        self.assertEqual(self.unsorted_list.insertionSort, [1, 2, 3, 4, 6, 7, 8, 9])
-        self.assertEqual(self.unsorted_list.quickSort, [1, 2, 3, 4, 6, 7, 8, 9])
-        self.assertEqual(self.unsorted_list.mergeSort, [1, 2, 3, 4, 6, 7, 8, 9])
+        expected_output = [1, 2, 3, 4, 6, 7, 8, 9]
+        self.assertEqual(self.unsorted_list.selectionSort, expected_output)
+        self.assertEqual(self.unsorted_list.insertionSort, expected_output)
+        self.assertEqual(self.unsorted_list.quickSort, expected_output)
+        self.assertEqual(self.unsorted_list.mergeSort, expected_output)
 
     def test_sorted_list(self):
         """ When input list is already sorted """
-        self.assertEqual(self.sorted_list.quickSort, [1, 2, 3, 4, 5, 6, 7, 8])
-        self.assertEqual(self.sorted_list.mergeSort, [1, 2, 3, 4, 5, 6, 7, 8])
-        self.assertEqual(self.sorted_list.selectionSort, [1, 2, 3, 4, 5, 6, 7, 8])
-        self.assertEqual(self.sorted_list.insertionSort, [1, 2, 3, 4, 5, 6, 7, 8])
+        expected_output = [1, 2, 3, 4, 5, 6, 7, 8]
+        self.assertEqual(self.sorted_list.quickSort, expected_output)
+        self.assertEqual(self.sorted_list.mergeSort, expected_output)
+        self.assertEqual(self.sorted_list.selectionSort, expected_output)
+        self.assertEqual(self.sorted_list.insertionSort, expected_output)
 
     def test_reverse_sorted_list(self):
         """ When list is sorted in reverse order """
-        self.assertEqual(self.reverse_sorted_list.quickSort, [1, 2, 3, 4, 5, 6, 7, 8])
-        self.assertEqual(self.reverse_sorted_list.mergeSort, [1, 2, 3, 4, 5, 6, 7, 8])
-        self.assertEqual(self.reverse_sorted_list.selectionSort, [1, 2, 3, 4, 5, 6, 7, 8])
-        self.assertEqual(self.reverse_sorted_list.insertionSort, [1, 2, 3, 4, 5, 6, 7, 8])
+        expected_output = [1, 2, 3, 4, 5, 6, 7, 8]
+        self.assertEqual(self.reverse_sorted_list.quickSort, expected_output)
+        self.assertEqual(self.reverse_sorted_list.mergeSort, expected_output)
+        self.assertEqual(self.reverse_sorted_list.selectionSort, expected_output)
+        self.assertEqual(self.reverse_sorted_list.insertionSort, expected_output)
 
     def test_repeated_element_list(self):
         """ When few elements are repeated in the input list"""
-        self.assertEqual(self.repetitive_element_list.quickSort, [1, 2, 3, 4, 8, 8, 8, 9])
-        self.assertEqual(self.repetitive_element_list.mergeSort, [1, 2, 3, 4, 8, 8, 8, 9])
-        self.assertEqual(self.repetitive_element_list.selectionSort, [1, 2, 3, 4, 8, 8, 8, 9])
-        self.assertEqual(self.repetitive_element_list.insertionSort, [1, 2, 3, 4, 8, 8, 8, 9])
+        expected_output = [1, 2, 3, 4, 8, 8, 8, 9]
+        self.assertEqual(self.repetitive_element_list.quickSort, expected_output)
+        self.assertEqual(self.repetitive_element_list.mergeSort, expected_output)
+        self.assertEqual(self.repetitive_element_list.selectionSort, expected_output)
+        self.assertEqual(self.repetitive_element_list.insertionSort, expected_output)
 
     def test_zero_size_list(self):
         """ When size of the input list is zero """
-        self.assertEqual(self.zero_size_list.quickSort, [])
-        self.assertEqual(self.zero_size_list.mergeSort, [])
-        self.assertEqual(self.zero_size_list.selectionSort, [])
-        self.assertEqual(self.zero_size_list.insertionSort, [])
+        expected_output = []
+        self.assertEqual(self.zero_size_list.quickSort, expected_output)
+        self.assertEqual(self.zero_size_list.mergeSort, expected_output)
+        self.assertEqual(self.zero_size_list.selectionSort, expected_output)
+        self.assertEqual(self.zero_size_list.insertionSort, expected_output)
 
     def test_list_containing_zero(self):
         """" List containing multiple zeros """
-        self.assertEqual(self.zero_element_in_list.quickSort, [0, 0, 3, 4, 6, 7, 8, 9])
-        self.assertEqual(self.zero_element_in_list.mergeSort, [0, 0, 3, 4, 6, 7, 8, 9])
+        expected_output = [0, 0, 3, 4, 6, 7, 8, 9]
+        self.assertEqual(self.zero_element_in_list.quickSort, expected_output)
+        self.assertEqual(self.zero_element_in_list.mergeSort, expected_output)
         self.assertEqual(self.zero_element_in_list.selectionSort, [0, 0, 3, 4, 6, 7, 8, 9])
         self.assertEqual(self.zero_element_in_list.insertionSort, [0, 0, 3, 4, 6, 7, 8, 9])
 

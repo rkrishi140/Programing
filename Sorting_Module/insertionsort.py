@@ -15,16 +15,11 @@ Attributes:
 Todo:
     If list contains a character that needs to be done.
 """
-import logging
-
-logging.basicConfig(level=logging.DEBUG,
-                    format='%(asctime)s:%(levelname)s:%(message)s',
-                    filename='Sort.log'
-                    )
+from Programing.Sorting_Module.sortinglog import my_logger
 
 
 def insertionSort(inputList):
-    logging.info('Entered into insertionSort method')
+    my_logger.info('Insertion Sort is being called for input list: {}'.format(inputList))
     """
     Left part of the list is already sorted and right side of the list is traversed in such a way that each element
     is compared with sorted list element and that element is placed at his respective position so that left list get
@@ -38,10 +33,9 @@ def insertionSort(inputList):
         :param inputList:
     """
     try:
-        logging.debug('Entered into main try block!')
-        sizeOfList = len(inputList)
+        my_logger.debug('Entered into main try block of Insertion Sort!')
         # i is the iterator of the inputList
-        for i in range(1, sizeOfList):
+        for i, _ in enumerate(inputList):
             # last index of sorted list
             lastIndexOfSortedList = i - 1
             key = inputList[i]
@@ -53,12 +47,14 @@ def insertionSort(inputList):
                 lastIndexOfSortedList -= 1
             # Finally key is put at respective position
             inputList[lastIndexOfSortedList + 1] = key
-        logging.debug('Getting out of main try block!')
     except TypeError as t:
-        logging.error('Error Occurred and type of error is {}'.format(logging.exception(t)))
+        my_logger.error('Error Occurred and type of error is {}'.format(my_logger.exception(t)))
+
+    except BaseException as be:
+        my_logger.error('For input list {} in Insertion Sort {} exception occurred '.format(inputList, be))
+
     else:
-        logging.info('Try else block executed!')
-        logging.debug('Output Sorted List is: {}'.format(inputList))
+        my_logger.info('Insertion Sort gives {} this list as output. '.format(inputList))
         return inputList
 
 

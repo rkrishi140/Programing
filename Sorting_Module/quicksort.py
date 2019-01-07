@@ -18,12 +18,7 @@ Todo:
     Only applicable for integer containing list.
 
 """
-import logging
-
-logging.basicConfig(level=logging.DEBUG,
-                    format='%(asctime)s:%(levelname)s:%(message)s',
-                    filename='Sort.log'
-                    )
+from Programing.Sorting_Module.sortinglog import my_logger
 
 
 def toFindPivotIndex(inputList, leftIndex, rightIndex):
@@ -70,7 +65,7 @@ def quickSort1(inputList, leftIndex, rightIndex):
 
 
 def quickSort(input_list):
-    logging.debug('Entered in to helping function!')
+    my_logger.debug('Entered in to helping function of quick sort for input list {}'.format(input_list))
     """
     To call the quickSort1() i.e a helping function.
     Args:
@@ -79,13 +74,12 @@ def quickSort(input_list):
          list: Returns sorted list
     """
     try:
-        logging.debug('Entered into main try block!')
+        my_logger.debug('Entered into main try block of QuickSort to sort {} list'.format(input_list))
         quickSort1(input_list, 0, len(input_list))
     except TypeError as t:
-        logging.error('Error Occurred and type of error is {}'.format(logging.exception(t)))
+        my_logger.error('Error Occurred and type of error is {}'.format(my_logger.exception(t)))
     else:
-        logging.info('Try else block executed!')
-        logging.debug('Output Sorted List is: {}'.format(input_list))
+        my_logger.debug('Output Sorted List is: {} by Quick Sort'.format(input_list))
         return input_list
 
 

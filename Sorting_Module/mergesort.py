@@ -17,11 +17,7 @@ Todo:
 
 
 import sys
-import logging
-logging.basicConfig(level=logging.DEBUG,
-                    format='%(asctime)s:%(levelname)s:%(message)s',
-                    filename='Sort.log'
-                    )
+from Programing.Sorting_Module.sortinglog import my_logger
 
 
 def mergeSort(inputList):
@@ -51,7 +47,7 @@ def mergeSort(inputList):
             leftListIterator = 0
             rightListIterator = 0
             # Merging is being done, k is the iterator of the inputList
-            for k in range(0, len(inputList)):
+            for k, _ in enumerate(inputList):
                 if leftList[leftListIterator] > rightList[rightListIterator]:
                     inputList[k] = rightList[rightListIterator]
                     rightListIterator += 1
@@ -59,10 +55,9 @@ def mergeSort(inputList):
                     inputList[k] = leftList[leftListIterator]
                     leftListIterator += 1
     except TypeError as t:
-        logging.error('Error Occurred and type of error is {}'.format(logging.exception(t)))
+        my_logger.error('Error Occurred and type of error is {}'.format(my_logger.exception(t)))
     else:
-        logging.info('Try else block executed!')
-        logging.debug('Recursively is being Sorted: {}'.format(inputList))
+        my_logger.debug('Recursively Sorted list is {} by merge sort'.format(inputList))
         return inputList
 
 

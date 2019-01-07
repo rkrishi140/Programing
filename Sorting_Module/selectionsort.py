@@ -14,11 +14,7 @@ Todo:
     Only applicable for integer containing list so character containing list to be done.
 
 """
-import logging
-logging.basicConfig(level=logging.DEBUG,
-                    format='%(asctime)s:%(levelname)s:%(message)s',
-                    filename='Sort.log'
-                    )
+from Programing.Sorting_Module.sortinglog import my_logger
 
 
 def findMinIndex(inputList, leftIndex, rightIndex):
@@ -42,7 +38,6 @@ def findMinIndex(inputList, leftIndex, rightIndex):
 
 
 def selectionSort(inputList):
-    logging.info('Entered into selectionSort method!')
     """
     Minimum element  find from the unsorted part of the list and then after it is placed at first position of unsorted
     list.
@@ -54,17 +49,17 @@ def selectionSort(inputList):
 
     """
     try:
-        logging.debug('Entered into main try block!')
-        for i in range(0, len(inputList)):
+        for i, _ in enumerate(inputList):
             index = findMinIndex(inputList, i, len(inputList))
             # Applying swapping approach
             inputList[i], inputList[index] = inputList[index], inputList[i]
-        logging.debug('List is sorted!')
     except TypeError as t:
-        logging.error('Error Occurred and type of error is {}'.format(logging.exception(t)))
+        my_logger.error('Error Occurred and type of error is {}'.format(my_logger.exception(t)))
+
+    except BaseException as be:
+        my_logger.error('To sort {} list occurred this error {}'.format(inputList, be))
     else:
-        logging.info('Try else block executed!')
-        logging.debug('Output Sorted List is: {}'.format(inputList))
+        my_logger.debug('Output Sorted List is: {} by selection sort'.format(inputList))
         return inputList
 
 

@@ -18,52 +18,12 @@ Attributes:
 Todo:
     Only applicable for integer containing list.
 """
-import functools
-import time
-import logging
-from Programs.Programing.Sorting_Module import quicksort as QuickSort
-from Programs.Programing.Sorting_Module import insertionsort as InsertionSort
-from Programs.Programing.Sorting_Module import mergesort as MergeSort
-from Programs.Programing.Sorting_Module import selectionsort as SelectionSort
-
-
-logging.basicConfig(level=logging.DEBUG,
-                    format='%(asctime)s:%(levelname)s:%(message)s',
-                    filename='Sort.log'
-                    )
-
-
-def toMeasureExecutionTime(func):
-    """
-    This is a decorator function that takes original function as an argument.
-    Args:
-        param1 (function_type):  Original function which is to be decorated
-
-    Returns:
-    function_type: Returns wrapper function i.e on hold
-    """
-    """ This wraps the metadata of the original function"""
-
-    @functools.wraps(func)
-    def wrapperOf_toMeasureExecutionTime_decorator(*args, **kwargs):
-        """
-        This is wrapping function that wrap up the task of to be decorated function.
-        Args:
-            param1 (args): no. of argument of the original function to be decorated
-            param2 (kwargs): argument of the original function to be decorated.
-        Returns:
-        return_type_of_original_function: result of the original function
-
-        """
-        """ Execution time of this sorting is very fast i.e difference of time.time() is tends to zero. To get the
-            significant figure using timer """
-        start = time.perf_counter()
-        res = func(*args, **kwargs)
-        end = time.perf_counter()
-        print(func.__name__ + " is taking " + str((end - start) * 1000) + " mil seconds")
-        return res
-
-    return wrapperOf_toMeasureExecutionTime_decorator
+from Programing.Sorting_Module.utils import toMeasureExecutionTime
+from Programing.Sorting_Module import quicksort as QuickSort
+from Programing.Sorting_Module import insertionsort as InsertionSort
+from Programing.Sorting_Module import mergesort as MergeSort
+from Programing.Sorting_Module import selectionsort as SelectionSort
+from Programing.Sorting_Module.sortinglog import my_logger
 
 
 class Sort:
@@ -72,14 +32,14 @@ class Sort:
     """
 
     def __init__(self, inputList):
-        logging.info('Object is being created!')
+        my_logger.info('Object is being created for input list: {}'.format(inputList))
         self.inputList = inputList
 
     @property
     @toMeasureExecutionTime
     def quickSort(self):
         """ To call quickSort method """
-        logging.info('QuickSort in called!')
+        my_logger.info('QuickSort is to sort {}'.format(self.inputList))
         sorted_list = QuickSort.quickSort(self.inputList)
         return sorted_list
 
@@ -87,7 +47,7 @@ class Sort:
     @toMeasureExecutionTime
     def mergeSort(self):
         """ To call mergeSort method """
-        logging.info('MergeSort is called!')
+        my_logger.info('MergeSort is to sort {}'.format(self.inputList))
         sorted_list = MergeSort.mergeSort(self.inputList)
         return sorted_list
 
@@ -95,7 +55,7 @@ class Sort:
     @toMeasureExecutionTime
     def selectionSort(self):
         """ To call selectionSort method """
-        logging.info('SelectionSort in called!')
+        my_logger.info('SelectionSort is to sort {}'.format(self.inputList))
         sorted_list = SelectionSort.selectionSort(self.inputList)
         return sorted_list
 
@@ -103,7 +63,7 @@ class Sort:
     @toMeasureExecutionTime
     def insertionSort(self):
         """ To call insertionSort method """
-        logging.info('InsertionSort in called!')
+        my_logger.info('InsertionSort is called to sort {}'.format(self.inputList))
         sorted_list = InsertionSort.insertionSort(self.inputList)
         return sorted_list
 
@@ -111,4 +71,4 @@ class Sort:
 if __name__ == '__main__':
     input_list = [1, 4, 6, 4, 0]
     s_object = Sort(input_list)
-    print(s_object.mergeSort)
+    s_object.insertionSort
