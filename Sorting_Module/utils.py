@@ -34,6 +34,6 @@ def func_execution_time(func):
         result = func(*args, **kw)
         end_time = time.perf_counter_ns()
 
-        print('%r  is taking %2.2f nano Second' % (func.__name__, (end_time - start_time)))
+        print('%r  is taking %2.2f nanoSecond' % (func.__name__, (end_time - start_time)))
         return result
     return wrapper_func_execution

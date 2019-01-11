@@ -1,6 +1,6 @@
 """
 It is the driver module of all the module.
-It will work for integer , float . It is also working for string or character.
+It will work for integer , float .
 
 Attributes:
     Import all the module.
@@ -23,32 +23,32 @@ class Sort:
 
     @func_execution_time
     def selection_sort(self):
-        """This module will be called for Selection Sorting"""
+        """This method will be called for Selection Sorting"""
 
         sorted_list = selectionsort.selection_sort(self.l_input)
         return sorted_list
 
     @func_execution_time
-    def insert_sort(self):
-        """This module will be called for Insertion Sorting"""
+    def insertion_sort(self):
+        """This method will be called for Insertion Sorting"""
         sorted_list = insertionsort.insertion_sort(self.l_input)
         return sorted_list
 
     @func_execution_time
     def merge_sort(self):
-        """This module will be called for Merge Sorting"""
+        """This method will be called for Merge Sorting"""
         sorted_list = mergesort.merge_sort(self.l_input)
         return sorted_list
 
     @func_execution_time
     def quick_sort(self):
-        """This module will be called for Quick Sorting"""
+        """This method will be called for Quick Sorting"""
         sorted_list = quicksort.quick_sort(self.l_input)
         return sorted_list
 
 
 if __name__ == '__main__':
     # unsorted_list = [1, 3, 2, 4, 7, 9]
-    obj = Sort(['w', 'c', '1']).selection_sort()
+    obj = Sort([1, 2, 4, 3, 0]).selection_sort()
     # sorted_ = obj.selection_sort()
     print(obj)

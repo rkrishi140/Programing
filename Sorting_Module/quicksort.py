@@ -7,13 +7,13 @@ Attributes:
     No module level attributes are declared in this module.
 
 Todo::
-    Using more sorting algorithm we have to create package with folder of all the module
+    Sorting for Input list with character is to be performed.
 
 """
 
 
 def quick_sort(l_input):
-    """his method is passing the input list to quick function to  be processed.
+    """This method is passing the input list to quick function to  be processed.
 
     Args:
         l_input (list) : Input List
