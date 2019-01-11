@@ -26,3 +26,288 @@
 2019-01-07 16:54:43,743:DEBUG:Getting out of main try block!
 2019-01-07 16:54:43,743:INFO:Try else block executed!
 2019-01-07 16:54:43,743:DEBUG:Output Sorted List is: [1]
+2019-01-11 17:03:27,493:INFO:Object is being created for input list: [3, 8, 2, 1, 9, 7, 4, 6]
+2019-01-11 17:03:27,497:INFO:Object is being created for input list: [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,498:INFO:Object is being created for input list: [8, 7, 6, 5, 4, 3, 2, 1]
+2019-01-11 17:03:27,498:INFO:Object is being created for input list: [3, 8, 2, 1, 9, 8, 4, 8]
+2019-01-11 17:03:27,498:INFO:Object is being created for input list: []
+2019-01-11 17:03:27,499:INFO:Object is being created for input list: [1]
+2019-01-11 17:03:27,500:INFO:Object is being created for input list: [0, 0, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,500:INFO:Object is being created for input list: [-1, -2, -3, -4, -5]
+2019-01-11 17:03:27,501:INFO:QuickSort is to sort [-1, -2, -3, -4, -5]
+2019-01-11 17:03:27,503:DEBUG:Entered in to helping function of quick sort for input list [-1, -2, -3, -4, -5]
+2019-01-11 17:03:27,503:DEBUG:Entered into main try block of QuickSort to sort [-1, -2, -3, -4, -5] list
+2019-01-11 17:03:27,503:DEBUG:Output Sorted List is: [-5, -4, -3, -2, -1] by Quick Sort
+2019-01-11 17:03:27,503:INFO:quickSort is taking 2.7626619999998603 mil seconds and output list is [-5, -4, -3, -2, -1]
+2019-01-11 17:03:27,504:INFO:MergeSort is to sort [-5, -4, -3, -2, -1]
+2019-01-11 17:03:27,504:DEBUG:Recursively Sorted list is [-5] by merge sort
+2019-01-11 17:03:27,504:DEBUG:Recursively Sorted list is [-4] by merge sort
+2019-01-11 17:03:27,505:DEBUG:Recursively Sorted list is [-5, -4] by merge sort
+2019-01-11 17:03:27,505:DEBUG:Recursively Sorted list is [-3] by merge sort
+2019-01-11 17:03:27,505:DEBUG:Recursively Sorted list is [-2] by merge sort
+2019-01-11 17:03:27,505:DEBUG:Recursively Sorted list is [-1] by merge sort
+2019-01-11 17:03:27,505:DEBUG:Recursively Sorted list is [-2, -1] by merge sort
+2019-01-11 17:03:27,506:DEBUG:Recursively Sorted list is [-3, -2, -1] by merge sort
+2019-01-11 17:03:27,506:DEBUG:Recursively Sorted list is [-5, -4, -3, -2, -1] by merge sort
+2019-01-11 17:03:27,506:INFO:mergeSort is taking 2.2105560000000857 mil seconds and output list is [-5, -4, -3, -2, -1]
+2019-01-11 17:03:27,506:INFO:SelectionSort is to sort [-5, -4, -3, -2, -1]
+2019-01-11 17:03:27,506:DEBUG:Output Sorted List is: [-5, -4, -3, -2, -1] by selection sort
+2019-01-11 17:03:27,507:INFO:selectionSort is taking 0.3613860000002411 mil seconds and output list is [-5, -4, -3, -2, -1]
+2019-01-11 17:03:27,507:INFO:InsertionSort is called to sort [-5, -4, -3, -2, -1]
+2019-01-11 17:03:27,507:INFO:Insertion Sort is being called for input list: [-5, -4, -3, -2, -1]
+2019-01-11 17:03:27,507:DEBUG:Entered into main try block of Insertion Sort!
+2019-01-11 17:03:27,507:INFO:Insertion Sort gives [-5, -4, -3, -2, -1] this list as output. 
+2019-01-11 17:03:27,508:INFO:insertionSort is taking 0.7564780000000049 mil seconds and output list is [-5, -4, -3, -2, -1]
+2019-01-11 17:03:27,513:INFO:Object is being created for input list: [3, 8, 2, 1, 9, 7, 4, 6]
+2019-01-11 17:03:27,514:INFO:Object is being created for input list: [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,514:INFO:Object is being created for input list: [8, 7, 6, 5, 4, 3, 2, 1]
+2019-01-11 17:03:27,514:INFO:Object is being created for input list: [3, 8, 2, 1, 9, 8, 4, 8]
+2019-01-11 17:03:27,514:INFO:Object is being created for input list: []
+2019-01-11 17:03:27,514:INFO:Object is being created for input list: [1]
+2019-01-11 17:03:27,515:INFO:Object is being created for input list: [0, 0, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,515:INFO:Object is being created for input list: [-1, -2, -3, -4, -5]
+2019-01-11 17:03:27,515:INFO:QuickSort is to sort [0, 0, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,515:DEBUG:Entered in to helping function of quick sort for input list [0, 0, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,516:DEBUG:Entered into main try block of QuickSort to sort [0, 0, 3, 4, 6, 7, 8, 9] list
+2019-01-11 17:03:27,517:DEBUG:Output Sorted List is: [0, 0, 3, 4, 6, 7, 8, 9] by Quick Sort
+2019-01-11 17:03:27,517:INFO:quickSort is taking 1.5509300000000614 mil seconds and output list is [0, 0, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,517:INFO:MergeSort is to sort [0, 0, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,517:DEBUG:Recursively Sorted list is [0] by merge sort
+2019-01-11 17:03:27,517:DEBUG:Recursively Sorted list is [0] by merge sort
+2019-01-11 17:03:27,518:DEBUG:Recursively Sorted list is [0, 0] by merge sort
+2019-01-11 17:03:27,518:DEBUG:Recursively Sorted list is [3] by merge sort
+2019-01-11 17:03:27,519:DEBUG:Recursively Sorted list is [4] by merge sort
+2019-01-11 17:03:27,519:DEBUG:Recursively Sorted list is [3, 4] by merge sort
+2019-01-11 17:03:27,519:DEBUG:Recursively Sorted list is [0, 0, 3, 4] by merge sort
+2019-01-11 17:03:27,519:DEBUG:Recursively Sorted list is [6] by merge sort
+2019-01-11 17:03:27,519:DEBUG:Recursively Sorted list is [7] by merge sort
+2019-01-11 17:03:27,519:DEBUG:Recursively Sorted list is [6, 7] by merge sort
+2019-01-11 17:03:27,520:DEBUG:Recursively Sorted list is [8] by merge sort
+2019-01-11 17:03:27,520:DEBUG:Recursively Sorted list is [9] by merge sort
+2019-01-11 17:03:27,520:DEBUG:Recursively Sorted list is [8, 9] by merge sort
+2019-01-11 17:03:27,520:DEBUG:Recursively Sorted list is [6, 7, 8, 9] by merge sort
+2019-01-11 17:03:27,520:DEBUG:Recursively Sorted list is [0, 0, 3, 4, 6, 7, 8, 9] by merge sort
+2019-01-11 17:03:27,521:INFO:mergeSort is taking 4.330232000000045 mil seconds and output list is [0, 0, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,522:INFO:SelectionSort is to sort [0, 0, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,522:DEBUG:Output Sorted List is: [0, 0, 3, 4, 6, 7, 8, 9] by selection sort
+2019-01-11 17:03:27,522:INFO:selectionSort is taking 0.4014919999999478 mil seconds and output list is [0, 0, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,522:INFO:InsertionSort is called to sort [0, 0, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,522:INFO:Insertion Sort is being called for input list: [0, 0, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,524:DEBUG:Entered into main try block of Insertion Sort!
+2019-01-11 17:03:27,524:INFO:Insertion Sort gives [0, 0, 3, 4, 6, 7, 8, 9] this list as output. 
+2019-01-11 17:03:27,524:INFO:insertionSort is taking 0.437758999999982 mil seconds and output list is [0, 0, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,529:INFO:Object is being created for input list: [3, 8, 2, 1, 9, 7, 4, 6]
+2019-01-11 17:03:27,530:INFO:Object is being created for input list: [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,530:INFO:Object is being created for input list: [8, 7, 6, 5, 4, 3, 2, 1]
+2019-01-11 17:03:27,530:INFO:Object is being created for input list: [3, 8, 2, 1, 9, 8, 4, 8]
+2019-01-11 17:03:27,531:INFO:Object is being created for input list: []
+2019-01-11 17:03:27,531:INFO:Object is being created for input list: [1]
+2019-01-11 17:03:27,531:INFO:Object is being created for input list: [0, 0, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,531:INFO:Object is being created for input list: [-1, -2, -3, -4, -5]
+2019-01-11 17:03:27,531:INFO:QuickSort is to sort [3, 8, 2, 1, 9, 8, 4, 8]
+2019-01-11 17:03:27,532:DEBUG:Entered in to helping function of quick sort for input list [3, 8, 2, 1, 9, 8, 4, 8]
+2019-01-11 17:03:27,532:DEBUG:Entered into main try block of QuickSort to sort [3, 8, 2, 1, 9, 8, 4, 8] list
+2019-01-11 17:03:27,532:DEBUG:Output Sorted List is: [1, 2, 3, 4, 8, 8, 8, 9] by Quick Sort
+2019-01-11 17:03:27,532:INFO:quickSort is taking 1.0278380000001697 mil seconds and output list is [1, 2, 3, 4, 8, 8, 8, 9]
+2019-01-11 17:03:27,533:INFO:MergeSort is to sort [1, 2, 3, 4, 8, 8, 8, 9]
+2019-01-11 17:03:27,534:DEBUG:Recursively Sorted list is [1] by merge sort
+2019-01-11 17:03:27,534:DEBUG:Recursively Sorted list is [2] by merge sort
+2019-01-11 17:03:27,534:DEBUG:Recursively Sorted list is [1, 2] by merge sort
+2019-01-11 17:03:27,534:DEBUG:Recursively Sorted list is [3] by merge sort
+2019-01-11 17:03:27,534:DEBUG:Recursively Sorted list is [4] by merge sort
+2019-01-11 17:03:27,535:DEBUG:Recursively Sorted list is [3, 4] by merge sort
+2019-01-11 17:03:27,535:DEBUG:Recursively Sorted list is [1, 2, 3, 4] by merge sort
+2019-01-11 17:03:27,535:DEBUG:Recursively Sorted list is [8] by merge sort
+2019-01-11 17:03:27,535:DEBUG:Recursively Sorted list is [8] by merge sort
+2019-01-11 17:03:27,536:DEBUG:Recursively Sorted list is [8, 8] by merge sort
+2019-01-11 17:03:27,536:DEBUG:Recursively Sorted list is [8] by merge sort
+2019-01-11 17:03:27,536:DEBUG:Recursively Sorted list is [9] by merge sort
+2019-01-11 17:03:27,536:DEBUG:Recursively Sorted list is [8, 9] by merge sort
+2019-01-11 17:03:27,536:DEBUG:Recursively Sorted list is [8, 8, 8, 9] by merge sort
+2019-01-11 17:03:27,536:DEBUG:Recursively Sorted list is [1, 2, 3, 4, 8, 8, 8, 9] by merge sort
+2019-01-11 17:03:27,536:INFO:mergeSort is taking 3.135995000000058 mil seconds and output list is [1, 2, 3, 4, 8, 8, 8, 9]
+2019-01-11 17:03:27,537:INFO:SelectionSort is to sort [1, 2, 3, 4, 8, 8, 8, 9]
+2019-01-11 17:03:27,537:DEBUG:Output Sorted List is: [1, 2, 3, 4, 8, 8, 8, 9] by selection sort
+2019-01-11 17:03:27,537:INFO:selectionSort is taking 0.22272000000000958 mil seconds and output list is [1, 2, 3, 4, 8, 8, 8, 9]
+2019-01-11 17:03:27,537:INFO:InsertionSort is called to sort [1, 2, 3, 4, 8, 8, 8, 9]
+2019-01-11 17:03:27,537:INFO:Insertion Sort is being called for input list: [1, 2, 3, 4, 8, 8, 8, 9]
+2019-01-11 17:03:27,537:DEBUG:Entered into main try block of Insertion Sort!
+2019-01-11 17:03:27,537:INFO:Insertion Sort gives [1, 2, 3, 4, 8, 8, 8, 9] this list as output. 
+2019-01-11 17:03:27,537:INFO:insertionSort is taking 0.390400000000124 mil seconds and output list is [1, 2, 3, 4, 8, 8, 8, 9]
+2019-01-11 17:03:27,543:INFO:Object is being created for input list: [3, 8, 2, 1, 9, 7, 4, 6]
+2019-01-11 17:03:27,544:INFO:Object is being created for input list: [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,544:INFO:Object is being created for input list: [8, 7, 6, 5, 4, 3, 2, 1]
+2019-01-11 17:03:27,544:INFO:Object is being created for input list: [3, 8, 2, 1, 9, 8, 4, 8]
+2019-01-11 17:03:27,544:INFO:Object is being created for input list: []
+2019-01-11 17:03:27,544:INFO:Object is being created for input list: [1]
+2019-01-11 17:03:27,544:INFO:Object is being created for input list: [0, 0, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,544:INFO:Object is being created for input list: [-1, -2, -3, -4, -5]
+2019-01-11 17:03:27,544:INFO:QuickSort is to sort [8, 7, 6, 5, 4, 3, 2, 1]
+2019-01-11 17:03:27,544:DEBUG:Entered in to helping function of quick sort for input list [8, 7, 6, 5, 4, 3, 2, 1]
+2019-01-11 17:03:27,545:DEBUG:Entered into main try block of QuickSort to sort [8, 7, 6, 5, 4, 3, 2, 1] list
+2019-01-11 17:03:27,545:DEBUG:Output Sorted List is: [1, 2, 3, 4, 5, 6, 7, 8] by Quick Sort
+2019-01-11 17:03:27,545:INFO:quickSort is taking 0.4799989999999532 mil seconds and output list is [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,545:INFO:MergeSort is to sort [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,545:DEBUG:Recursively Sorted list is [1] by merge sort
+2019-01-11 17:03:27,545:DEBUG:Recursively Sorted list is [2] by merge sort
+2019-01-11 17:03:27,545:DEBUG:Recursively Sorted list is [1, 2] by merge sort
+2019-01-11 17:03:27,545:DEBUG:Recursively Sorted list is [3] by merge sort
+2019-01-11 17:03:27,546:DEBUG:Recursively Sorted list is [4] by merge sort
+2019-01-11 17:03:27,546:DEBUG:Recursively Sorted list is [3, 4] by merge sort
+2019-01-11 17:03:27,546:DEBUG:Recursively Sorted list is [1, 2, 3, 4] by merge sort
+2019-01-11 17:03:27,546:DEBUG:Recursively Sorted list is [5] by merge sort
+2019-01-11 17:03:27,546:DEBUG:Recursively Sorted list is [6] by merge sort
+2019-01-11 17:03:27,546:DEBUG:Recursively Sorted list is [5, 6] by merge sort
+2019-01-11 17:03:27,546:DEBUG:Recursively Sorted list is [7] by merge sort
+2019-01-11 17:03:27,546:DEBUG:Recursively Sorted list is [8] by merge sort
+2019-01-11 17:03:27,546:DEBUG:Recursively Sorted list is [7, 8] by merge sort
+2019-01-11 17:03:27,546:DEBUG:Recursively Sorted list is [5, 6, 7, 8] by merge sort
+2019-01-11 17:03:27,547:DEBUG:Recursively Sorted list is [1, 2, 3, 4, 5, 6, 7, 8] by merge sort
+2019-01-11 17:03:27,547:INFO:mergeSort is taking 1.6004240000002667 mil seconds and output list is [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,547:INFO:SelectionSort is to sort [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,547:DEBUG:Output Sorted List is: [1, 2, 3, 4, 5, 6, 7, 8] by selection sort
+2019-01-11 17:03:27,547:INFO:selectionSort is taking 0.2483189999997748 mil seconds and output list is [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,547:INFO:InsertionSort is called to sort [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,547:INFO:Insertion Sort is being called for input list: [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,548:DEBUG:Entered into main try block of Insertion Sort!
+2019-01-11 17:03:27,548:INFO:Insertion Sort gives [1, 2, 3, 4, 5, 6, 7, 8] this list as output. 
+2019-01-11 17:03:27,548:INFO:insertionSort is taking 0.4189860000001211 mil seconds and output list is [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,553:INFO:Object is being created for input list: [3, 8, 2, 1, 9, 7, 4, 6]
+2019-01-11 17:03:27,553:INFO:Object is being created for input list: [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,553:INFO:Object is being created for input list: [8, 7, 6, 5, 4, 3, 2, 1]
+2019-01-11 17:03:27,553:INFO:Object is being created for input list: [3, 8, 2, 1, 9, 8, 4, 8]
+2019-01-11 17:03:27,553:INFO:Object is being created for input list: []
+2019-01-11 17:03:27,554:INFO:Object is being created for input list: [1]
+2019-01-11 17:03:27,554:INFO:Object is being created for input list: [0, 0, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,554:INFO:Object is being created for input list: [-1, -2, -3, -4, -5]
+2019-01-11 17:03:27,554:INFO:QuickSort is to sort [1]
+2019-01-11 17:03:27,554:DEBUG:Entered in to helping function of quick sort for input list [1]
+2019-01-11 17:03:27,554:DEBUG:Entered into main try block of QuickSort to sort [1] list
+2019-01-11 17:03:27,554:DEBUG:Output Sorted List is: [1] by Quick Sort
+2019-01-11 17:03:27,554:INFO:quickSort is taking 0.3912520000000086 mil seconds and output list is [1]
+2019-01-11 17:03:27,554:INFO:MergeSort is to sort [1]
+2019-01-11 17:03:27,555:DEBUG:Recursively Sorted list is [1] by merge sort
+2019-01-11 17:03:27,555:INFO:mergeSort is taking 0.236800000000148 mil seconds and output list is [1]
+2019-01-11 17:03:27,555:INFO:SelectionSort is to sort [1]
+2019-01-11 17:03:27,555:DEBUG:Output Sorted List is: [1] by selection sort
+2019-01-11 17:03:27,555:INFO:selectionSort is taking 0.5811190000000188 mil seconds and output list is [1]
+2019-01-11 17:03:27,556:INFO:InsertionSort is called to sort [1]
+2019-01-11 17:03:27,556:INFO:Insertion Sort is being called for input list: [1]
+2019-01-11 17:03:27,557:DEBUG:Entered into main try block of Insertion Sort!
+2019-01-11 17:03:27,557:INFO:Insertion Sort gives [1] this list as output. 
+2019-01-11 17:03:27,557:INFO:insertionSort is taking 0.738559000000194 mil seconds and output list is [1]
+2019-01-11 17:03:27,562:INFO:Object is being created for input list: [3, 8, 2, 1, 9, 7, 4, 6]
+2019-01-11 17:03:27,562:INFO:Object is being created for input list: [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,562:INFO:Object is being created for input list: [8, 7, 6, 5, 4, 3, 2, 1]
+2019-01-11 17:03:27,562:INFO:Object is being created for input list: [3, 8, 2, 1, 9, 8, 4, 8]
+2019-01-11 17:03:27,563:INFO:Object is being created for input list: []
+2019-01-11 17:03:27,563:INFO:Object is being created for input list: [1]
+2019-01-11 17:03:27,563:INFO:Object is being created for input list: [0, 0, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,563:INFO:Object is being created for input list: [-1, -2, -3, -4, -5]
+2019-01-11 17:03:27,563:INFO:QuickSort is to sort [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,563:DEBUG:Entered in to helping function of quick sort for input list [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,563:DEBUG:Entered into main try block of QuickSort to sort [1, 2, 3, 4, 5, 6, 7, 8] list
+2019-01-11 17:03:27,563:DEBUG:Output Sorted List is: [1, 2, 3, 4, 5, 6, 7, 8] by Quick Sort
+2019-01-11 17:03:27,563:INFO:quickSort is taking 0.4637860000000771 mil seconds and output list is [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,564:INFO:MergeSort is to sort [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,564:DEBUG:Recursively Sorted list is [1] by merge sort
+2019-01-11 17:03:27,564:DEBUG:Recursively Sorted list is [2] by merge sort
+2019-01-11 17:03:27,564:DEBUG:Recursively Sorted list is [1, 2] by merge sort
+2019-01-11 17:03:27,564:DEBUG:Recursively Sorted list is [3] by merge sort
+2019-01-11 17:03:27,564:DEBUG:Recursively Sorted list is [4] by merge sort
+2019-01-11 17:03:27,564:DEBUG:Recursively Sorted list is [3, 4] by merge sort
+2019-01-11 17:03:27,564:DEBUG:Recursively Sorted list is [1, 2, 3, 4] by merge sort
+2019-01-11 17:03:27,565:DEBUG:Recursively Sorted list is [5] by merge sort
+2019-01-11 17:03:27,565:DEBUG:Recursively Sorted list is [6] by merge sort
+2019-01-11 17:03:27,565:DEBUG:Recursively Sorted list is [5, 6] by merge sort
+2019-01-11 17:03:27,565:DEBUG:Recursively Sorted list is [7] by merge sort
+2019-01-11 17:03:27,565:DEBUG:Recursively Sorted list is [8] by merge sort
+2019-01-11 17:03:27,565:DEBUG:Recursively Sorted list is [7, 8] by merge sort
+2019-01-11 17:03:27,565:DEBUG:Recursively Sorted list is [5, 6, 7, 8] by merge sort
+2019-01-11 17:03:27,565:DEBUG:Recursively Sorted list is [1, 2, 3, 4, 5, 6, 7, 8] by merge sort
+2019-01-11 17:03:27,565:INFO:mergeSort is taking 1.667837000000283 mil seconds and output list is [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,566:INFO:SelectionSort is to sort [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,566:DEBUG:Output Sorted List is: [1, 2, 3, 4, 5, 6, 7, 8] by selection sort
+2019-01-11 17:03:27,566:INFO:selectionSort is taking 0.3801600000001848 mil seconds and output list is [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,566:INFO:InsertionSort is called to sort [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,566:INFO:Insertion Sort is being called for input list: [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,566:DEBUG:Entered into main try block of Insertion Sort!
+2019-01-11 17:03:27,566:INFO:Insertion Sort gives [1, 2, 3, 4, 5, 6, 7, 8] this list as output. 
+2019-01-11 17:03:27,567:INFO:insertionSort is taking 0.4381850000001464 mil seconds and output list is [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,572:INFO:Object is being created for input list: [3, 8, 2, 1, 9, 7, 4, 6]
+2019-01-11 17:03:27,573:INFO:Object is being created for input list: [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,574:INFO:Object is being created for input list: [8, 7, 6, 5, 4, 3, 2, 1]
+2019-01-11 17:03:27,574:INFO:Object is being created for input list: [3, 8, 2, 1, 9, 8, 4, 8]
+2019-01-11 17:03:27,574:INFO:Object is being created for input list: []
+2019-01-11 17:03:27,575:INFO:Object is being created for input list: [1]
+2019-01-11 17:03:27,575:INFO:Object is being created for input list: [0, 0, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,575:INFO:Object is being created for input list: [-1, -2, -3, -4, -5]
+2019-01-11 17:03:27,575:INFO:SelectionSort is to sort [3, 8, 2, 1, 9, 7, 4, 6]
+2019-01-11 17:03:27,575:DEBUG:Output Sorted List is: [1, 2, 3, 4, 6, 7, 8, 9] by selection sort
+2019-01-11 17:03:27,575:INFO:selectionSort is taking 0.3003729999999649 mil seconds and output list is [1, 2, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,576:INFO:InsertionSort is called to sort [1, 2, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,576:INFO:Insertion Sort is being called for input list: [1, 2, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,576:DEBUG:Entered into main try block of Insertion Sort!
+2019-01-11 17:03:27,576:INFO:Insertion Sort gives [1, 2, 3, 4, 6, 7, 8, 9] this list as output. 
+2019-01-11 17:03:27,576:INFO:insertionSort is taking 0.6028789999996675 mil seconds and output list is [1, 2, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,577:INFO:QuickSort is to sort [1, 2, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,577:DEBUG:Entered in to helping function of quick sort for input list [1, 2, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,577:DEBUG:Entered into main try block of QuickSort to sort [1, 2, 3, 4, 6, 7, 8, 9] list
+2019-01-11 17:03:27,577:DEBUG:Output Sorted List is: [1, 2, 3, 4, 6, 7, 8, 9] by Quick Sort
+2019-01-11 17:03:27,577:INFO:quickSort is taking 0.521385999999957 mil seconds and output list is [1, 2, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,577:INFO:MergeSort is to sort [1, 2, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,577:DEBUG:Recursively Sorted list is [1] by merge sort
+2019-01-11 17:03:27,578:DEBUG:Recursively Sorted list is [2] by merge sort
+2019-01-11 17:03:27,578:DEBUG:Recursively Sorted list is [1, 2] by merge sort
+2019-01-11 17:03:27,578:DEBUG:Recursively Sorted list is [3] by merge sort
+2019-01-11 17:03:27,578:DEBUG:Recursively Sorted list is [4] by merge sort
+2019-01-11 17:03:27,578:DEBUG:Recursively Sorted list is [3, 4] by merge sort
+2019-01-11 17:03:27,578:DEBUG:Recursively Sorted list is [1, 2, 3, 4] by merge sort
+2019-01-11 17:03:27,578:DEBUG:Recursively Sorted list is [6] by merge sort
+2019-01-11 17:03:27,578:DEBUG:Recursively Sorted list is [7] by merge sort
+2019-01-11 17:03:27,578:DEBUG:Recursively Sorted list is [6, 7] by merge sort
+2019-01-11 17:03:27,578:DEBUG:Recursively Sorted list is [8] by merge sort
+2019-01-11 17:03:27,579:DEBUG:Recursively Sorted list is [9] by merge sort
+2019-01-11 17:03:27,579:DEBUG:Recursively Sorted list is [8, 9] by merge sort
+2019-01-11 17:03:27,579:DEBUG:Recursively Sorted list is [6, 7, 8, 9] by merge sort
+2019-01-11 17:03:27,579:DEBUG:Recursively Sorted list is [1, 2, 3, 4, 6, 7, 8, 9] by merge sort
+2019-01-11 17:03:27,579:INFO:mergeSort is taking 1.6012779999998727 mil seconds and output list is [1, 2, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,583:INFO:Object is being created for input list: [3, 8, 2, 1, 9, 7, 4, 6]
+2019-01-11 17:03:27,583:INFO:Object is being created for input list: [1, 2, 3, 4, 5, 6, 7, 8]
+2019-01-11 17:03:27,583:INFO:Object is being created for input list: [8, 7, 6, 5, 4, 3, 2, 1]
+2019-01-11 17:03:27,583:INFO:Object is being created for input list: [3, 8, 2, 1, 9, 8, 4, 8]
+2019-01-11 17:03:27,583:INFO:Object is being created for input list: []
+2019-01-11 17:03:27,583:INFO:Object is being created for input list: [1]
+2019-01-11 17:03:27,584:INFO:Object is being created for input list: [0, 0, 3, 4, 6, 7, 8, 9]
+2019-01-11 17:03:27,584:INFO:Object is being created for input list: [-1, -2, -3, -4, -5]
+2019-01-11 17:03:27,584:INFO:QuickSort is to sort []
+2019-01-11 17:03:27,584:DEBUG:Entered in to helping function of quick sort for input list []
+2019-01-11 17:03:27,584:DEBUG:Entered into main try block of QuickSort to sort [] list
+2019-01-11 17:03:27,584:DEBUG:Output Sorted List is: [] by Quick Sort
+2019-01-11 17:03:27,584:INFO:quickSort is taking 0.3818659999996754 mil seconds and output list is []
+2019-01-11 17:03:27,584:INFO:MergeSort is to sort []
+2019-01-11 17:03:27,584:DEBUG:Recursively Sorted list is [] by merge sort
+2019-01-11 17:03:27,584:INFO:mergeSort is taking 0.1975469999999646 mil seconds and output list is []
+2019-01-11 17:03:27,585:INFO:SelectionSort is to sort []
+2019-01-11 17:03:27,585:DEBUG:Output Sorted List is: [] by selection sort
+2019-01-11 17:03:27,585:INFO:selectionSort is taking 0.2107720000004143 mil seconds and output list is []
+2019-01-11 17:03:27,585:INFO:InsertionSort is called to sort []
+2019-01-11 17:03:27,585:INFO:Insertion Sort is being called for input list: []
+2019-01-11 17:03:27,585:DEBUG:Entered into main try block of Insertion Sort!
+2019-01-11 17:03:27,586:INFO:Insertion Sort gives [] this list as output. 
+2019-01-11 17:03:27,586:INFO:insertionSort is taking 0.7522119999996413 mil seconds and output list is []
+2019-01-11 18:48:42,665:DEBUG:Entered in to helping function of quick sort for input list [2, 3, 7, 0, 12, 8]
+2019-01-11 18:48:42,665:DEBUG:Entered into main try block of QuickSort to sort [2, 3, 7, 0, 12, 8] list
+2019-01-11 18:48:42,665:DEBUG:Output Sorted List is: [0, 3, 7, 2, 8, 12] by Quick Sort
+2019-01-11 18:49:47,100:DEBUG:Entered in to helping function of quick sort for input list [1, 3, 7, 9, 11, 19]
+2019-01-11 18:49:47,100:DEBUG:Entered into main try block of QuickSort to sort [1, 3, 7, 9, 11, 19] list
+2019-01-11 18:49:47,100:DEBUG:Output Sorted List is: [1, 3, 7, 9, 11, 19] by Quick Sort
+2019-01-11 18:49:57,991:DEBUG:Entered in to helping function of quick sort for input list [2, 8, 6, 12, 4, 0]
+2019-01-11 18:49:58,007:DEBUG:Entered into main try block of QuickSort to sort [2, 8, 6, 12, 4, 0] list
+2019-01-11 18:49:58,007:DEBUG:Output Sorted List is: [0, 2, 4, 6, 8, 12] by Quick Sort
+2019-01-11 18:49:58,398:DEBUG:Entered in to helping function of quick sort for input list [2, 3, 7, 0, 12, 8]
+2019-01-11 18:49:58,398:DEBUG:Entered into main try block of QuickSort to sort [2, 3, 7, 0, 12, 8] list
+2019-01-11 18:49:58,398:DEBUG:Output Sorted List is: [0, 3, 7, 2, 8, 12] by Quick Sort
+2019-01-11 18:49:58,413:DEBUG:Entered in to helping function of quick sort for input list [1, 3, 7, 9, 11, 19]
+2019-01-11 18:49:58,413:DEBUG:Entered into main try block of QuickSort to sort [1, 3, 7, 9, 11, 19] list
+2019-01-11 18:49:58,413:DEBUG:Output Sorted List is: [1, 3, 7, 9, 11, 19] by Quick Sort
