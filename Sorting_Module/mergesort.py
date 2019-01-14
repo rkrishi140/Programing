@@ -1,16 +1,17 @@
 """------------Merge  Sorting--------------------
 
-It performs merge sorting on a input list where input list may contain integer or float. This module contains three
-function. In this we will divide the list till the element in list is 1. After it we will merge sorted sublist
-accordingly.
+It performs merge sorting on a input list where input list may contain integer or float or char/string. This module
+contains three function. In this we will divide the list till the element in list is 1. After it we will merge sorted
+ sublist accordingly.
 
 Attributes:
     No module level attributes are declared in this module.
 
 Todo:
-    Sorting for Input list with character is to be performed.
+    Sorting for Input tuple is to be performed.
 
 """
+from Sorting_Module.LogSorting import logger
 
 
 def merge_sort(l_input):
@@ -24,15 +25,19 @@ def merge_sort(l_input):
         list : Sorted List
 
     """
+    try:
+        length = len(l_input)
 
-    length = len(l_input)
+        # If length is 0 or 1 ,then no need to be sorted
+        if length < 2:
+            return l_input
 
-    # If length is 0 or 1 ,then no need to be sorted
-    if length < 2:
+        merge_sort_algorithm(l_input, 0, length)
+    except Exception as Error:
+        logger.error('{}'.format(Error))
+    else:
+        logger.info("Quick Sort for input list: {} ran successfully".format(l_input))
         return l_input
-
-    merge_sort_algorithm(l_input, 0, length)
-    return l_input
 
 
 def merge(l_input, left, mid, right):

@@ -7,9 +7,10 @@ Attributes:
     No module level attributes are declared in this module.
 
 Todo:
-    Sorting for Input list with character is to be performed.
+    Sorting for Input tuple is to be performed.
 
 """
+from Sorting_Module.LogSorting import logger
 
 
 def selection_sort(l_input):
@@ -22,19 +23,25 @@ def selection_sort(l_input):
     Return:
         list : Sorted List
     """
-    length = len(l_input)
+    # noinspection PyBroadException
 
-    # Loop for finding the minimum element and swap with element which is on index of element in Sorted List(If Sorted).
-    for i, _ in enumerate(l_input):
-        for j in range(i+1, length):
-            if l_input[j] < l_input[i]:
-                # Swapping of element if there is any bigger element before smaller list.
-                l_input[i], l_input[j] = l_input[j], l_input[i]
+    try:
+        length = len(l_input)
 
-    return l_input
+        # Loop for finding the minimum element and swap with element which is on index of element in Sorted List.
+        for i, _ in enumerate(l_input):
+            for j in range(i + 1, length):
+                if l_input[j] < l_input[i]:
+                    # Swapping of element if there is any bigger element before smaller list.
+                    l_input[i], l_input[j] = l_input[j], l_input[i]
+    except Exception as Error:
+        logger.error('{}'.format(Error))
+    else:
+        logger.info("Quick Sort for input list: {} ran successfully".format(l_input))
+        return l_input
 
 
 if __name__ == '__main__':
-    unSortedList = [-3.4, 2.5, 4.5, -2]
+    unSortedList = [1.5, 'bat', 'apple', 'zebra', 'fox']
     SortedList = selection_sort(unSortedList)
     print(SortedList)

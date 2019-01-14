@@ -1,15 +1,16 @@
 """------------Quick Sorting--------------------
 
-It performs quick sorting on a input list where input list may contain integer or float.It is also based on divide and
-conquer algorithm.
+It performs quick sorting on a input list where input list may contain integer or float or char/string.
+This algorithm is based on divide and conquer algorithm.
 
 Attributes:
-    No module level attributes are declared in this module.
+    logger has been imported.
 
 Todo::
-    Sorting for Input list with character is to be performed.
+    Sorting for Input tuple is to be performed.
 
 """
+from Sorting_Module.LogSorting import logger
 
 
 def quick_sort(l_input):
@@ -22,14 +23,18 @@ def quick_sort(l_input):
         list : Sorted List
     """
 
-    length = len(l_input)
+    try:
+        length = len(l_input)
 
-    if length < 2:
+        if length < 2:
+            return l_input
+
+        quick(l_input, 0, length - 1)
+    except Exception as Error:
+        logger.error('{}'.format(Error))
+    else:
+        logger.info("Quick Sort for input list: {} ran successfully".format(l_input))
         return l_input
-
-    quick(l_input, 0, length-1)
-
-    return l_input
 
 
 def partition(l_input, low, high):
@@ -80,13 +85,13 @@ def quick(l_input, low, high):
         p_index = partition(l_input, low, high)
 
         # Calling the same function recursively.
+        # noinspection PyBroadException
         quick(l_input, low, p_index - 1)
         quick(l_input, p_index + 1, high)
-
-    return l_input
+        return l_input
 
 
 if __name__ == '__main__':
-    unSortedList = [-1.5, -2.4, 4]
+    unSortedList = ['a', -2.4, 4]
     SortedList = quick_sort(unSortedList)
     print(SortedList)

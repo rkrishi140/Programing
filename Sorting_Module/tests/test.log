@@ -1,0 +1,200 @@
+2019-01-14 13:10:20,007 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 9, 8, 3, 5]:sorting
+2019-01-14 13:10:20,007 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list []:sorting
+2019-01-14 13:10:20,007 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [7]:sorting
+2019-01-14 13:10:20,007 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [3, 1]:sorting
+2019-01-14 13:10:20,007 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 3]:sorting
+2019-01-14 13:10:20,007 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [10, 0]:sorting
+2019-01-14 13:10:20,007 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [5, 1, 9, 2, 10]:sorting
+2019-01-14 13:10:20,007 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [5, 1, 9, 2, 10, 11]:sorting
+2019-01-14 13:10:20,007 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 2, 2, 1, 0, 0, 15, 15]:sorting
+2019-01-14 13:10:20,007 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [135604, 1000000, 45, 78435, 456219832, 2, 546]:sorting
+2019-01-14 13:10:20,007 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1.5, 1.4, 9.232, 5.7643]:sorting
+2019-01-14 13:10:20,007 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list ['bag', 'bat', 'apple', 'zebra', 'fox']:sorting
+2019-01-14 13:10:20,007 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 'bag', 'bat', 'apple']:sorting
+2019-01-14 13:10:20,117 - selectionsort.py - selection_sort - INFO - 40 - Quick Sort for input list: ['apple', 'bag', 'bat', 'fox', 'zebra'] ran successfully:selectionsort
+2019-01-14 13:10:20,117 - insertionsort.py - insertion_sort - INFO - 43 - Quick Sort for input list: ['apple', 'bag', 'bat', 'fox', 'zebra'] ran successfully:insertionsort
+2019-01-14 13:10:20,117 - mergesort.py - merge_sort - INFO - 39 - Quick Sort for input list: ['apple', 'bag', 'bat', 'fox', 'zebra'] ran successfully:mergesort
+2019-01-14 13:10:20,117 - quicksort.py - quick_sort - INFO - 36 - Quick Sort for input list: ['apple', 'bag', 'bat', 'fox', 'zebra'] ran successfully:quicksort
+2019-01-14 13:10:20,117 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 9, 8, 3, 5]:sorting
+2019-01-14 13:10:20,117 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list []:sorting
+2019-01-14 13:10:20,117 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [7]:sorting
+2019-01-14 13:10:20,117 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [3, 1]:sorting
+2019-01-14 13:10:20,117 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 3]:sorting
+2019-01-14 13:10:20,117 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [10, 0]:sorting
+2019-01-14 13:10:20,117 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [5, 1, 9, 2, 10]:sorting
+2019-01-14 13:10:20,117 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [5, 1, 9, 2, 10, 11]:sorting
+2019-01-14 13:10:20,117 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 2, 2, 1, 0, 0, 15, 15]:sorting
+2019-01-14 13:10:20,117 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [135604, 1000000, 45, 78435, 456219832, 2, 546]:sorting
+2019-01-14 13:10:20,117 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1.5, 1.4, 9.232, 5.7643]:sorting
+2019-01-14 13:10:20,117 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list ['bag', 'bat', 'apple', 'zebra', 'fox']:sorting
+2019-01-14 13:10:20,117 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 'bag', 'bat', 'apple']:sorting
+2019-01-14 13:10:20,148 - selectionsort.py - selection_sort - INFO - 40 - Quick Sort for input list: [0, 0, 1, 1, 2, 2, 15, 15] ran successfully:selectionsort
+2019-01-14 13:10:20,148 - insertionsort.py - insertion_sort - INFO - 43 - Quick Sort for input list: [0, 0, 1, 1, 2, 2, 15, 15] ran successfully:insertionsort
+2019-01-14 13:10:20,164 - mergesort.py - merge_sort - INFO - 39 - Quick Sort for input list: [0, 0, 1, 1, 2, 2, 15, 15] ran successfully:mergesort
+2019-01-14 13:10:20,164 - quicksort.py - quick_sort - INFO - 36 - Quick Sort for input list: [0, 0, 1, 1, 2, 2, 15, 15] ran successfully:quicksort
+2019-01-14 13:10:20,164 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 9, 8, 3, 5]:sorting
+2019-01-14 13:10:20,164 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list []:sorting
+2019-01-14 13:10:20,164 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [7]:sorting
+2019-01-14 13:10:20,164 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [3, 1]:sorting
+2019-01-14 13:10:20,164 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 3]:sorting
+2019-01-14 13:10:20,164 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [10, 0]:sorting
+2019-01-14 13:10:20,164 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [5, 1, 9, 2, 10]:sorting
+2019-01-14 13:10:20,164 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [5, 1, 9, 2, 10, 11]:sorting
+2019-01-14 13:10:20,164 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 2, 2, 1, 0, 0, 15, 15]:sorting
+2019-01-14 13:10:20,164 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [135604, 1000000, 45, 78435, 456219832, 2, 546]:sorting
+2019-01-14 13:10:20,164 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1.5, 1.4, 9.232, 5.7643]:sorting
+2019-01-14 13:10:20,164 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list ['bag', 'bat', 'apple', 'zebra', 'fox']:sorting
+2019-01-14 13:10:20,164 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 'bag', 'bat', 'apple']:sorting
+2019-01-14 13:10:20,179 - selectionsort.py - selection_sort - INFO - 40 - Quick Sort for input list: [] ran successfully:selectionsort
+2019-01-14 13:10:20,179 - insertionsort.py - insertion_sort - INFO - 43 - Quick Sort for input list: [] ran successfully:insertionsort
+2019-01-14 13:10:20,195 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 9, 8, 3, 5]:sorting
+2019-01-14 13:10:20,195 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list []:sorting
+2019-01-14 13:10:20,195 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [7]:sorting
+2019-01-14 13:10:20,195 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [3, 1]:sorting
+2019-01-14 13:10:20,195 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 3]:sorting
+2019-01-14 13:10:20,195 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [10, 0]:sorting
+2019-01-14 13:10:20,195 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [5, 1, 9, 2, 10]:sorting
+2019-01-14 13:10:20,195 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [5, 1, 9, 2, 10, 11]:sorting
+2019-01-14 13:10:20,195 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 2, 2, 1, 0, 0, 15, 15]:sorting
+2019-01-14 13:10:20,195 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [135604, 1000000, 45, 78435, 456219832, 2, 546]:sorting
+2019-01-14 13:10:20,195 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1.5, 1.4, 9.232, 5.7643]:sorting
+2019-01-14 13:10:20,195 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list ['bag', 'bat', 'apple', 'zebra', 'fox']:sorting
+2019-01-14 13:10:20,195 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 'bag', 'bat', 'apple']:sorting
+2019-01-14 13:10:20,210 - selectionsort.py - selection_sort - INFO - 40 - Quick Sort for input list: [1, 2, 5, 9, 10, 11] ran successfully:selectionsort
+2019-01-14 13:10:20,210 - insertionsort.py - insertion_sort - INFO - 43 - Quick Sort for input list: [1, 2, 5, 9, 10, 11] ran successfully:insertionsort
+2019-01-14 13:10:20,210 - mergesort.py - merge_sort - INFO - 39 - Quick Sort for input list: [1, 2, 5, 9, 10, 11] ran successfully:mergesort
+2019-01-14 13:10:20,210 - quicksort.py - quick_sort - INFO - 36 - Quick Sort for input list: [1, 2, 5, 9, 10, 11] ran successfully:quicksort
+2019-01-14 13:10:20,210 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 9, 8, 3, 5]:sorting
+2019-01-14 13:10:20,210 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list []:sorting
+2019-01-14 13:10:20,210 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [7]:sorting
+2019-01-14 13:10:20,210 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [3, 1]:sorting
+2019-01-14 13:10:20,210 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 3]:sorting
+2019-01-14 13:10:20,210 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [10, 0]:sorting
+2019-01-14 13:10:20,210 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [5, 1, 9, 2, 10]:sorting
+2019-01-14 13:10:20,210 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [5, 1, 9, 2, 10, 11]:sorting
+2019-01-14 13:10:20,210 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 2, 2, 1, 0, 0, 15, 15]:sorting
+2019-01-14 13:10:20,210 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [135604, 1000000, 45, 78435, 456219832, 2, 546]:sorting
+2019-01-14 13:10:20,210 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1.5, 1.4, 9.232, 5.7643]:sorting
+2019-01-14 13:10:20,210 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list ['bag', 'bat', 'apple', 'zebra', 'fox']:sorting
+2019-01-14 13:10:20,210 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 'bag', 'bat', 'apple']:sorting
+2019-01-14 13:10:20,242 - selectionsort.py - selection_sort - INFO - 40 - Quick Sort for input list: [1.4, 1.5, 5.7643, 9.232] ran successfully:selectionsort
+2019-01-14 13:10:20,242 - insertionsort.py - insertion_sort - INFO - 43 - Quick Sort for input list: [1.4, 1.5, 5.7643, 9.232] ran successfully:insertionsort
+2019-01-14 13:10:20,242 - mergesort.py - merge_sort - INFO - 39 - Quick Sort for input list: [1.4, 1.5, 5.7643, 9.232] ran successfully:mergesort
+2019-01-14 13:10:20,242 - quicksort.py - quick_sort - INFO - 36 - Quick Sort for input list: [1.4, 1.5, 5.7643, 9.232] ran successfully:quicksort
+2019-01-14 13:10:20,242 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 9, 8, 3, 5]:sorting
+2019-01-14 13:10:20,242 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list []:sorting
+2019-01-14 13:10:20,242 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [7]:sorting
+2019-01-14 13:10:20,242 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [3, 1]:sorting
+2019-01-14 13:10:20,242 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 3]:sorting
+2019-01-14 13:10:20,242 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [10, 0]:sorting
+2019-01-14 13:10:20,242 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [5, 1, 9, 2, 10]:sorting
+2019-01-14 13:10:20,242 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [5, 1, 9, 2, 10, 11]:sorting
+2019-01-14 13:10:20,242 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 2, 2, 1, 0, 0, 15, 15]:sorting
+2019-01-14 13:10:20,242 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [135604, 1000000, 45, 78435, 456219832, 2, 546]:sorting
+2019-01-14 13:10:20,242 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1.5, 1.4, 9.232, 5.7643]:sorting
+2019-01-14 13:10:20,242 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list ['bag', 'bat', 'apple', 'zebra', 'fox']:sorting
+2019-01-14 13:10:20,242 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 'bag', 'bat', 'apple']:sorting
+2019-01-14 13:10:20,273 - selectionsort.py - selection_sort - INFO - 40 - Quick Sort for input list: [2, 45, 546, 78435, 135604, 1000000, 456219832] ran successfully:selectionsort
+2019-01-14 13:10:20,273 - insertionsort.py - insertion_sort - INFO - 43 - Quick Sort for input list: [2, 45, 546, 78435, 135604, 1000000, 456219832] ran successfully:insertionsort
+2019-01-14 13:10:20,273 - mergesort.py - merge_sort - INFO - 39 - Quick Sort for input list: [2, 45, 546, 78435, 135604, 1000000, 456219832] ran successfully:mergesort
+2019-01-14 13:10:20,273 - quicksort.py - quick_sort - INFO - 36 - Quick Sort for input list: [2, 45, 546, 78435, 135604, 1000000, 456219832] ran successfully:quicksort
+2019-01-14 13:10:20,273 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 9, 8, 3, 5]:sorting
+2019-01-14 13:10:20,273 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list []:sorting
+2019-01-14 13:10:20,273 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [7]:sorting
+2019-01-14 13:10:20,273 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [3, 1]:sorting
+2019-01-14 13:10:20,273 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 3]:sorting
+2019-01-14 13:10:20,273 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [10, 0]:sorting
+2019-01-14 13:10:20,273 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [5, 1, 9, 2, 10]:sorting
+2019-01-14 13:10:20,273 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [5, 1, 9, 2, 10, 11]:sorting
+2019-01-14 13:10:20,273 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 2, 2, 1, 0, 0, 15, 15]:sorting
+2019-01-14 13:10:20,273 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [135604, 1000000, 45, 78435, 456219832, 2, 546]:sorting
+2019-01-14 13:10:20,273 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1.5, 1.4, 9.232, 5.7643]:sorting
+2019-01-14 13:10:20,273 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list ['bag', 'bat', 'apple', 'zebra', 'fox']:sorting
+2019-01-14 13:10:20,273 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 'bag', 'bat', 'apple']:sorting
+2019-01-14 13:10:20,304 - selectionsort.py - selection_sort - INFO - 40 - Quick Sort for input list: [0, 10] ran successfully:selectionsort
+2019-01-14 13:10:20,304 - insertionsort.py - insertion_sort - INFO - 43 - Quick Sort for input list: [0, 10] ran successfully:insertionsort
+2019-01-14 13:10:20,304 - mergesort.py - merge_sort - INFO - 39 - Quick Sort for input list: [0, 10] ran successfully:mergesort
+2019-01-14 13:10:20,304 - quicksort.py - quick_sort - INFO - 36 - Quick Sort for input list: [0, 10] ran successfully:quicksort
+2019-01-14 13:10:20,304 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 9, 8, 3, 5]:sorting
+2019-01-14 13:10:20,304 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list []:sorting
+2019-01-14 13:10:20,304 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [7]:sorting
+2019-01-14 13:10:20,304 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [3, 1]:sorting
+2019-01-14 13:10:20,304 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 3]:sorting
+2019-01-14 13:10:20,304 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [10, 0]:sorting
+2019-01-14 13:10:20,304 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [5, 1, 9, 2, 10]:sorting
+2019-01-14 13:10:20,304 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [5, 1, 9, 2, 10, 11]:sorting
+2019-01-14 13:10:20,304 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 2, 2, 1, 0, 0, 15, 15]:sorting
+2019-01-14 13:10:20,304 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [135604, 1000000, 45, 78435, 456219832, 2, 546]:sorting
+2019-01-14 13:10:20,304 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1.5, 1.4, 9.232, 5.7643]:sorting
+2019-01-14 13:10:20,304 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list ['bag', 'bat', 'apple', 'zebra', 'fox']:sorting
+2019-01-14 13:10:20,304 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 'bag', 'bat', 'apple']:sorting
+2019-01-14 13:10:20,336 - selectionsort.py - selection_sort - INFO - 40 - Quick Sort for input list: [1, 2, 5, 9, 10] ran successfully:selectionsort
+2019-01-14 13:10:20,336 - insertionsort.py - insertion_sort - INFO - 43 - Quick Sort for input list: [1, 2, 5, 9, 10] ran successfully:insertionsort
+2019-01-14 13:10:20,336 - mergesort.py - merge_sort - INFO - 39 - Quick Sort for input list: [1, 2, 5, 9, 10] ran successfully:mergesort
+2019-01-14 13:10:20,336 - quicksort.py - quick_sort - INFO - 36 - Quick Sort for input list: [1, 2, 5, 9, 10] ran successfully:quicksort
+2019-01-14 13:10:20,336 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 9, 8, 3, 5]:sorting
+2019-01-14 13:10:20,336 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list []:sorting
+2019-01-14 13:10:20,336 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [7]:sorting
+2019-01-14 13:10:20,336 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [3, 1]:sorting
+2019-01-14 13:10:20,336 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 3]:sorting
+2019-01-14 13:10:20,336 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [10, 0]:sorting
+2019-01-14 13:10:20,336 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [5, 1, 9, 2, 10]:sorting
+2019-01-14 13:10:20,336 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [5, 1, 9, 2, 10, 11]:sorting
+2019-01-14 13:10:20,336 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 2, 2, 1, 0, 0, 15, 15]:sorting
+2019-01-14 13:10:20,336 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [135604, 1000000, 45, 78435, 456219832, 2, 546]:sorting
+2019-01-14 13:10:20,336 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1.5, 1.4, 9.232, 5.7643]:sorting
+2019-01-14 13:10:20,336 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list ['bag', 'bat', 'apple', 'zebra', 'fox']:sorting
+2019-01-14 13:10:20,336 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 'bag', 'bat', 'apple']:sorting
+2019-01-14 13:10:20,382 - selectionsort.py - selection_sort - INFO - 40 - Quick Sort for input list: [7] ran successfully:selectionsort
+2019-01-14 13:10:20,382 - insertionsort.py - insertion_sort - INFO - 43 - Quick Sort for input list: [7] ran successfully:insertionsort
+2019-01-14 13:10:20,382 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 9, 8, 3, 5]:sorting
+2019-01-14 13:10:20,382 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list []:sorting
+2019-01-14 13:10:20,382 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [7]:sorting
+2019-01-14 13:10:20,382 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [3, 1]:sorting
+2019-01-14 13:10:20,382 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 3]:sorting
+2019-01-14 13:10:20,382 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [10, 0]:sorting
+2019-01-14 13:10:20,382 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [5, 1, 9, 2, 10]:sorting
+2019-01-14 13:10:20,382 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [5, 1, 9, 2, 10, 11]:sorting
+2019-01-14 13:10:20,382 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 2, 2, 1, 0, 0, 15, 15]:sorting
+2019-01-14 13:10:20,382 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [135604, 1000000, 45, 78435, 456219832, 2, 546]:sorting
+2019-01-14 13:10:20,382 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1.5, 1.4, 9.232, 5.7643]:sorting
+2019-01-14 13:10:20,382 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list ['bag', 'bat', 'apple', 'zebra', 'fox']:sorting
+2019-01-14 13:10:20,382 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 'bag', 'bat', 'apple']:sorting
+2019-01-14 13:10:20,414 - selectionsort.py - selection_sort - INFO - 40 - Quick Sort for input list: [1, 3] ran successfully:selectionsort
+2019-01-14 13:10:20,414 - insertionsort.py - insertion_sort - INFO - 43 - Quick Sort for input list: [1, 3] ran successfully:insertionsort
+2019-01-14 13:10:20,414 - mergesort.py - merge_sort - INFO - 39 - Quick Sort for input list: [1, 3] ran successfully:mergesort
+2019-01-14 13:10:20,414 - quicksort.py - quick_sort - INFO - 36 - Quick Sort for input list: [1, 3] ran successfully:quicksort
+2019-01-14 13:10:20,414 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 9, 8, 3, 5]:sorting
+2019-01-14 13:10:20,414 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list []:sorting
+2019-01-14 13:10:20,414 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [7]:sorting
+2019-01-14 13:10:20,414 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [3, 1]:sorting
+2019-01-14 13:10:20,414 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 3]:sorting
+2019-01-14 13:10:20,414 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [10, 0]:sorting
+2019-01-14 13:10:20,414 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [5, 1, 9, 2, 10]:sorting
+2019-01-14 13:10:20,414 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [5, 1, 9, 2, 10, 11]:sorting
+2019-01-14 13:10:20,414 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 2, 2, 1, 0, 0, 15, 15]:sorting
+2019-01-14 13:10:20,414 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [135604, 1000000, 45, 78435, 456219832, 2, 546]:sorting
+2019-01-14 13:10:20,414 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1.5, 1.4, 9.232, 5.7643]:sorting
+2019-01-14 13:10:20,414 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list ['bag', 'bat', 'apple', 'zebra', 'fox']:sorting
+2019-01-14 13:10:20,414 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 'bag', 'bat', 'apple']:sorting
+2019-01-14 13:10:20,445 - selectionsort.py - selection_sort - INFO - 40 - Quick Sort for input list: [1, 3] ran successfully:selectionsort
+2019-01-14 13:10:20,445 - insertionsort.py - insertion_sort - INFO - 43 - Quick Sort for input list: [1, 3] ran successfully:insertionsort
+2019-01-14 13:10:20,445 - mergesort.py - merge_sort - INFO - 39 - Quick Sort for input list: [1, 3] ran successfully:mergesort
+2019-01-14 13:10:20,445 - quicksort.py - quick_sort - INFO - 36 - Quick Sort for input list: [1, 3] ran successfully:quicksort
+2019-01-14 13:10:20,445 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 9, 8, 3, 5]:sorting
+2019-01-14 13:10:20,445 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list []:sorting
+2019-01-14 13:10:20,445 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [7]:sorting
+2019-01-14 13:10:20,445 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [3, 1]:sorting
+2019-01-14 13:10:20,445 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 3]:sorting
+2019-01-14 13:10:20,445 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [10, 0]:sorting
+2019-01-14 13:10:20,445 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [5, 1, 9, 2, 10]:sorting
+2019-01-14 13:10:20,445 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [5, 1, 9, 2, 10, 11]:sorting
+2019-01-14 13:10:20,445 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 2, 2, 1, 0, 0, 15, 15]:sorting
+2019-01-14 13:10:20,445 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [135604, 1000000, 45, 78435, 456219832, 2, 546]:sorting
+2019-01-14 13:10:20,445 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1.5, 1.4, 9.232, 5.7643]:sorting
+2019-01-14 13:10:20,445 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list ['bag', 'bat', 'apple', 'zebra', 'fox']:sorting
+2019-01-14 13:10:20,445 - sorting.py - __init__ - INFO - 32 - Sort instance has been created for input list [1, 'bag', 'bat', 'apple']:sorting
+2019-01-14 13:10:20,476 - selectionsort.py - selection_sort - INFO - 40 - Quick Sort for input list: [1, 3, 5, 8, 9] ran successfully:selectionsort
+2019-01-14 13:10:20,476 - insertionsort.py - insertion_sort - INFO - 43 - Quick Sort for input list: [1, 3, 5, 8, 9] ran successfully:insertionsort
+2019-01-14 13:10:20,476 - mergesort.py - merge_sort - INFO - 39 - Quick Sort for input list: [1, 3, 5, 8, 9] ran successfully:mergesort
+2019-01-14 13:10:20,476 - quicksort.py - quick_sort - INFO - 36 - Quick Sort for input list: [1, 3, 5, 8, 9] ran successfully:quicksort

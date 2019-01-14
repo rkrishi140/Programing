@@ -1,9 +1,17 @@
 """
-It is the driver module of all the module.
-It will work for integer , float .
+It is driver module which is calling different type of sorting algorithms which are following.
+1.Selection Sorting
+2.Insertion Sorting
+3.Quick Sorting
+4.Merge Sorting
+
+All the imported modules support input as a list and list may contain int/float or char/string.
 
 Attributes:
-    Import all the module.
+    Importing different sorting algorithms.
+
+ToDO:
+    Importing more sorting algorithms.
 
 
 """
@@ -12,6 +20,7 @@ from Sorting_Module import insertionsort
 from Sorting_Module import quicksort
 from Sorting_Module import mergesort
 from Sorting_Module.utils import func_execution_time
+from Sorting_Module.LogSorting import logger
 
 
 class Sort:
@@ -20,6 +29,7 @@ class Sort:
     """
     def __init__(self, l_input):
         self.l_input = l_input
+        logger.info('Sort instance has been created for input list {}'.format(self.l_input))
 
     @func_execution_time
     def selection_sort(self):
